@@ -1,0 +1,1898 @@
+body{
+  margin: 15;
+  width: 1140px;
+  background: #F0F3FF;
+}
+
+
+
+/*----------     Navbar     ----------*/
+
+
+
+.navbar {
+  position: fixed;
+  width: 1280px; 
+  height: 110px; 
+  left: 0;
+  top: 0; 
+  z-index: 9999; 
+  
+
+  background-color: #0F143D; 
+  border-bottom: 1px solid #8B91C3;
+}
+
+.navbar-container{
+  top: 0px;
+}
+
+
+
+.navigation{
+  position: absolute;
+  width: 0; 
+  height: 0px; 
+  left: 0;
+  top: 0; 
+}
+
+.bug{
+  position: absolute;
+  width: 0px;
+  height: 36px;
+  left: -30px;
+  top: -2px;
+}
+
+.main-direction-navigation{
+  position: absolute;
+  width: 201px;
+  height: 36px;
+  left: 200px;
+  top: -2px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.about-us-navigation{
+  position: absolute;
+  width: 331px;
+  height: 36px;
+  left: 620px;
+  top: -2px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.comments-navigation{
+  position: absolute;
+  width: 331px;
+  height: 36px;
+  left: 1030px;
+  top: -2px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+
+
+.menu-navigation{
+  display: hidden;
+  background-color: #0F143D;
+}
+
+.menu-navigation a {
+  display: none;
+  top: -12px;
+  left: 10px;
+
+
+  color: #8B91C3;
+  padding: 14px 160px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  display: none;
+  color: #8B91C3;
+}
+
+
+
+
+
+
+ul #primary-nav{
+  left: 30px;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 35px;
+  top: 26px;
+}
+
+.logo{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 25px;
+  top: 17px;
+}
+
+.where-are{
+  position: absolute;
+  width: 220px;
+  height: 64px;
+  left: 156px;
+  top: 33px;
+
+  background: #8B91C3;
+  border-radius: 15px;
+  border: 2px solid #535EB8;
+}
+
+.where-are[type=text]{
+
+  padding-left: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #0F143D;
+}
+
+.btn-back-and-forth{
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 419px;
+  top: 39px;
+}
+
+.when-they{
+  position: absolute;
+  width: 220px;
+  height: 64px;
+  left: 490px;
+  top: 33px;
+
+  background: #8B91C3;
+  border-radius: 15px;
+  border: 2px solid #535EB8;
+}
+
+.when-they[type=text]{
+  padding-left: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #0F143D;
+}
+
+.where-are-they-going{
+  position: absolute;
+  width: 220px;
+  height: 64px;
+  left: 493px;
+  top: 33px;
+
+  background: #8B91C3;
+  border-radius: 5px;
+}
+
+.when-they-go{
+  position: absolute;
+  width: 190px;
+  height: 64px;
+  left: 757px;
+  top: 33px;
+
+  background: #8B91C3;
+  border-radius: 15px;
+  border: 2px solid #535EB8;
+}
+
+.when-they-go[type=date]{
+  padding-left: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #0F143D;
+}
+
+.calendar-image{
+  display: none;
+}
+
+.btTxt-search{
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 992px;
+  top: 33px;
+}
+
+.btTxt-nav-search{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 260px;
+  top: 42px;
+}
+
+.language{
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  left: 1085px;
+  top: 52px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8B91C3;
+}
+
+.btTxt-user{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 1192px;
+  top: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------     Main page     ----------*/
+
+
+
+
+.name{
+  width: 1265px;
+  height: 96px;
+  left: 0px;
+  top: 260px;
+
+  background: #8B91C3;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+.subhead {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 505px;
+  top: 150px;
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 121px;
+    
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+    
+  color: #0F143D;
+    
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.train-station{
+  top: 300;
+}
+
+.main-page-picture{
+  background-image: url(Picture/michal-parzuchowski-dmH3NWhYTHQ-unsplash.jpg);
+  position: absolute;
+  width: 1280px;
+  height: 650px;
+  left: 0px;
+  top: 75px;
+  object-fit: fill;
+  object-position: 10%;
+  background-position: 50%;
+  background-size: auto;
+
+  display: flex;
+}
+
+
+
+
+/*----------     Main directions     ----------*/
+
+
+
+
+.main-directions-container {
+  top: 1098px;
+}
+
+.main-directions-title{
+position: absolute;
+width: 603px;
+height: 73px;
+left: 365px;
+top: 750px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 73px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0F143D;
+}
+
+
+/*   Lviv   */
+
+
+.lviv-top{
+  position: absolute;
+  width: 380px;
+  height: 64px;
+  left: 12px;
+  top: 960px;
+
+  background: #8B91C3;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.lviv-top:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.lviv-top-name{
+position: absolute;
+width: 161px;
+height: 24px;
+left: 160px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+
+
+color: #0F143D;
+}
+
+.lviv-picture{
+  position: absolute;
+  width: 380px;
+  height: 228px;
+  left: 12px;
+  top: 1023px;
+}
+
+.lviv-picture:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.lviv-main{
+  position: absolute;
+  width: 380px;
+  height: 260px;
+  left: 12px;
+  top: 1250px;
+
+  background: #8B91C3;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.lviv-main:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.lviv-kyiv-text{
+  position: absolute;
+  width: 148px;
+  height: 31px;
+  left: 12px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-kyiv-price{
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.lviv-odesa-text {
+  position: absolute;
+  width: 200px;
+  height: 31px;
+  left: 12px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-odesa-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.lviv-kryvyi-rih-text {
+  position: absolute;
+  width: 200px;
+  height: 31px;
+  left: 12px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-kryvyi-rih-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.lviv-kharkiv-text {
+  position: absolute;
+  width: 200px;
+  height: 31px;
+  left: 12px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-kharkiv-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.lviv-dnipro-text {
+  position: absolute;
+  width: 200px;
+  height: 31px;
+  left: 12px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-dnipro-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+
+/*   Ukraine   */
+
+
+.ukraine-top{
+  position: absolute;
+  width: 450px;
+  height: 64px;
+  left: 412px;
+  top: 960px;
+  
+  background: #8B91C3;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.ukraine-top:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.ukraine-top-name{
+  position: absolute;
+  width: 161px;
+  height: 24px;
+  left: 165px;
+  top: 10px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  
+  
+  color: #0F143D;
+}
+
+.ukraine-picture{
+  position: absolute;
+  width: 450px;
+  height: 228px;
+  left: 412px;
+  top: 1023px;
+}
+
+.ukraine-picture:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.ukraine-main{
+  position: absolute;
+  width: 450px;
+  height: 260px;
+  left: 412px;
+  top: 1250px;
+  
+  background: #8B91C3;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.ukraine-main:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.ivano-frankivsk-kyiv-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.ivano-frankivsk-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 360px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.lviv-przemysl-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.lviv-przemysl-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 360px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.kyiv-przemysl-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-przemysl-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 348px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.odesa-kharkiv-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.odesa-kharkiv-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 360px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.odesa-dnipro-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.odesa-dnipro-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 360px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+
+/*   Kyiv   */
+
+
+.kyiv-top{
+  position: absolute;
+  width: 380px;
+  height: 64px;
+  left: 882px;
+  top: 960px;
+  
+  background: #8B91C3;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.kyiv-top:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.kyiv-top-name{
+  position: absolute;
+  width: 161px;
+  height: 24px;
+  left: 160px;
+  top: 10px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  
+  
+  color: #0F143D;
+}
+
+.kyiv-picture{
+  position: absolute;
+  width: 380px;
+  height: 228px;
+  left: 882px;
+  top: 1023px;
+}
+
+.kyiv-picture:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.kyiv-main{
+  position: absolute;
+  width: 380px;
+  height: 260px;
+  left: 882px;
+  top: 1250px;
+
+  background: #8B91C3;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.kyiv-main:hover {
+  box-shadow: 0 8px 12px 0 #4754BB;
+}
+
+.kyiv-lviv-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-lviv-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.kyiv-kharkiv-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-kharkiv-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.kyiv-odesa-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-odesa-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.kyiv-dnipro-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-dnipro-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 303px;
+  top: 155px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+.kyiv-mariupol-text {
+  position: absolute;
+  width: 350px;
+  height: 31px;
+  left: 12px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.kyiv-mariupol-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 290px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+}
+
+
+
+
+/*----------     About us     ----------*/
+
+
+
+
+.about-us-title{
+position: absolute;
+width: 315px;
+height: 73px;
+left: 505px;
+top: 1600px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 73px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0F143D;
+}
+
+.about-us-main{
+position: absolute;
+width: 1246px;
+height: 144px;
+left: 12px;
+top: 1780px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0F143D;
+}
+
+.train-picture{
+  position: absolute;
+  width: 552px;
+  height: 360px;
+  left: 340px;
+  top: 260px;
+  border-radius: 30px;
+}
+
+.main-gradient{
+  position: absolute;
+  width: 820px;
+  height: 600px;
+  left: 210px;
+  top: 110px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+.about-us-table{
+  position: absolute;
+  width: 669.41px;
+  height: 279px;
+  left: 40px;
+  top: 2550px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #0F143D;
+}
+
+.table-picture-style{
+  border: 1px;
+  border-radius: 20%;
+}
+
+.table-picture{
+  position: absolute;
+  border-radius: 30px;
+  width: 230px;
+  height: 241px;
+  left: 820px;
+  top: 25px;
+}
+
+.table-gradient{
+  position: absolute;
+  width: 420px;
+  height: 400px;
+  left: 730px;
+  top: -80px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+.about-us-ticket{
+  position: absolute;
+  width: 661.62px;
+  height: 144px;
+  left: 550px;
+  top: 3000px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  
+  color: #0F143D;
+  }
+
+.ticket-picture{
+  position: absolute;
+  width: 300px;
+  height: 174px;
+  left: -400px;
+  top: -20px;
+  border-radius: 30px;
+}
+
+.ticket-gradient{
+  position: absolute;
+  width: 420px;
+  height: 300px;
+  left: -460px;
+  top: -100px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+
+
+
+/*----------      Comments      ----------*/
+
+
+
+
+.comments-title{
+  position: absolute;
+  width: 624px;
+  height: 73px;
+  left: 505px;
+  top: 3254px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #0F143D;
+}
+
+
+/*   Comment 1   */
+
+
+.comment-1{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 340px;
+  height: 200px;
+  left: 20px;
+  top: 3450px;
+
+  background: #FFFFFF;
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.comment-1-gradient{
+  position: absolute;
+  width: 600px;
+  height: 360px;
+  left: -120px;
+  top: 3350px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+.person-1-image{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 5px;
+  top: 5px;
+
+  
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.person-1-mark{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 320px;
+  top: -20px;
+}
+
+.person-1-name{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 75px;
+  top: -25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.person-1-date{
+  position: absolute;
+  width: 202px;
+  height: 17px;
+  left: 75px;
+  top: 42px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #848ac0;
+}
+
+.person-1-comment{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 10px;
+  top: 100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+/*   Comment 2   */
+
+
+.comment-2{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 340px;
+  height: 200px;
+  left: 470px;
+  top: 3450px;
+
+  background: #FFFFFF;
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.comment-2-gradient{
+  position: absolute;
+  width: 600px;
+  height: 360px;
+  left: 335px;
+  top: 3350px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+.person-2-image{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 5px;
+  top: 5px;
+
+  
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.person-2-mark{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 320px;
+  top: -20px;
+}
+
+.person-2-name{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 75px;
+  top: -25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.person-2-date{
+  position: absolute;
+  width: 202px;
+  height: 17px;
+  left: 75px;
+  top: 42px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #848ac0;
+}
+
+.person-2-comment{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 10px;
+  top: 100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+/*   Comment 3   */
+
+
+.comment-3{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 340px;
+  height: 200px;
+  left: 910px;
+  top: 3450px;
+
+  background: #FFFFFF;
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.comment-3-gradient{
+  position: absolute;
+  width: 500px;
+  height: 360px;
+  left: 830px;
+  top: 3350px;
+
+  background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+}
+
+.person-3-image{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 5px;
+  top: 5px;
+
+  border: 1px solid #0F143D;
+  border-radius: 20px;
+}
+
+.person-3-mark{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 320px;
+  top: -20px;
+}
+
+.person-3-name{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 75px;
+  top: -25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0F143D;
+}
+
+.person-3-date{
+  position: absolute;
+  width: 202px;
+  height: 17px;
+  left: 75px;
+  top: 42px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #848ac0;
+}
+
+.person-3-comment{
+  position: absolute;
+  width: 313px;
+  height: 100px;
+  left: 10px;
+  top: 100px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+/*----------     Footer     ----------*/
+
+
+
+
+.footer-container{
+position: absolute;
+width: 1280px;
+height: 700px;
+left: 0px;
+top: 3800px;
+
+background: #0F143D;
+}
+
+
+/*   section 1   */
+
+
+.locomotive-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 60px;
+  top: 25px;
+}
+
+.subway-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 600px;
+  top: 25px;
+}
+
+.twitter-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 800px;
+  top: 40px;
+}
+
+.youtube-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 880px;
+  top: 40px;
+}
+
+.facebook-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 960px;
+  top: 40px;
+}
+
+.linkedin-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1040px;
+  top: 40px;
+}
+
+.viber-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1120px;
+  top: 40px;
+}
+
+.telegram-image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 1200px;
+  top: 40px;
+}
+
+.number-of-phone {
+  position: absolute;
+  width: 180px;
+  height: 36px;
+  left: 1080px;
+  top: 130px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.years-of-works {
+  position: absolute;
+  width: 348px;
+  height: 31px;
+  left: 58px;
+  top: 200px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.question {
+  position: absolute;
+  width: 331px;
+  height: 36px;
+  left: 562px;
+  top: 200px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.email {
+  position: absolute;
+  width: 150px;
+  height: 36px;
+  left: 1030px;
+  top: 200px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #8B91C3;
+}
+
+.footer-border-1{
+  position: absolute;
+  width: 1160px;
+  height: 0px;
+  left: 58px;
+  top: 260px;
+  
+  border: 3px solid #8B91C3;
+}
+
+
+/*   section 2   */
+
+
+.ukr-railway-image {
+  position: absolute;
+  width: 176px;
+  height: 68px;
+  left: 60px;
+  top: 300px;
+}
+
+.visa-image {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 420px;
+  top: 280px;  
+}
+
+.google-play-image {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  left: 700px;
+  top: 300px;
+
+  border-radius: 20px;
+}
+
+.app-store-image {
+  position: absolute;
+  width: 252px;
+  height: 72px;
+  left: 980px;
+  top: 300px;
+
+  border-radius: 20px;
+}
+
+.footer-border-2{
+  position: absolute;
+  width: 1160px;
+  height: 0px;
+  left: 58px;
+  top: 400px;
+  
+  border: 3px solid #8B91C3;
+}
+
+
+/*   section 3   */
+
+
+.final-text{
+  position: absolute;
+  width: 1140px;
+  height: 186px;
+  left: 58px;
+  top: 450px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  
+  color: #8B91C3;
+}
+
+

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index-styles.css">
+    <link rel="stylesheet" href="index-mobile-styles.css" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href="Picture/locomotive.png">
+    <title>Free Travel</title>
+</head>
+<body>
+
+
+
+    <div class="navbar">
+        <div class="navbar-container">
+
+            <div class="menu-navigation">
+                    <div id="myLinks">
+                        <a href="#id-main-directions-title">Популярні напрямки</a>
+                        <a href="#id-about-us-title">Про нас</a>
+                        <a href="#id-comments-title">Коментарі</a>
+                    </div>
+                        <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+                            <i class="fa-fa-bars"></i>
+                        </a>
+            </div>
+               
+            <div class="navigation">
+
+                <a class="bug" href="#id-main-directions-title">
+                    <div class="main-direction-navigation">
+                        Популярні напрямки
+                    </div>>
+                </a>
+
+                <a href="#id-about-us-title">
+                    <div class="about-us-navigation">
+                        Про нас
+                    </div>
+                </a>
+
+                <a href="#id-comments-title">
+                    <div class="comments-navigation">
+                        Коментарі
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+            <nav>
+                <ul class="primary-nav">
+                    <li class="menu"><input type="image" src="Picture/menu.png" name="saveForm" class="menu" id="saveForm" /></li>
+                    <!--<li class="menu"><img class="menu" src="Picture/menu.png"></li>-->
+                    <li class="logo">
+                        <a href="index.html">
+                            <input type="image" src="Picture/locomotive.png" name="saveForm" class="logo" href="#id-main-page-container" id="saveForm" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="form.html">
+                            <input type="image" src="Picture/magnifier.png" name="saveForm" class="btTxt-nav-search" href="#id-nav-search-parameters" id="saveForm" />
+                        </a>
+                    </li>
+                    
+                        
+                    <li><a href="#" class="language">UA/EN</a></li>
+                    <li><input type="image" src="Picture/user1.png" name="saveForm" class="btTxt-user" id="saveForm" /></li>
+                </ul>
+
+            </nav>
+
+
+
+
+            <div class="nav-search-parameters" id="id-nav-search-parameters">
+                <ul class="main-search-parameters" id="id-main-search-parameters">
+                    
+                        <li>
+                            <input type="text" placeholder="Звідки" class="where-are" list="citys">
+                            <datalist id="citys">
+                                <option value="Львів"></option>
+                                <option value="Київ"></option>
+                                <option value="Одеса"></option>
+                                <option value="Дніпро"></option>
+                                <option value="Харків"></option>
+                                <option value="Кривий-Ріг"></option>
+                                <option value="Сімферополь"></option>
+                                <option value="Донецьк"></option>
+                                <option value="Луганськ"></option>
+                                <option value="Запоріжжя"></option>
+                                <option value="Рівне"></option>
+                                <option value="Луцьк"></option>
+                                <option value="Тернопіль"></option>
+                                <option value="Ужгород"></option>
+                                <option value="Черкаси"></option>
+                                <option value="Херсон"></option>
+                                <option value="Чернівці"></option>
+                                <option value="Чернігів"></option>
+                                <option value="Житомир"></option>
+                                <option value="Вінниці"></option>
+                            </datalist>
+                        </li>
+
+                        <li><input type="image" src="Picture/back-and-forth.png" name="saveForm" class="btn-back-and-forth" id="back-and-forth"></li>
+                        
+                        <li>
+                            <input type="text" placeholder="Куди" class="when-they" list="citys">
+                            <datalist id="citys">
+                                <option value="Львів"></option>
+                                <option value="Київ"></option>
+                                <option value="Одеса"></option>
+                                <option value="Дніпро"></option>
+                                <option value="Харків"></option>
+                                <option value="Кривий-Ріг"></option>
+                                <option value="Сімферополь"></option>
+                                <option value="Донецьк"></option>
+                                <option value="Луганськ"></option>
+                                <option value="Запоріжжя"></option>
+                                <option value="Рівне"></option>
+                                <option value="Луцьк"></option>
+                                <option value="Тернопіль"></option>
+                                <option value="Ужгород"></option>
+                                <option value="Черкаси"></option>
+                                <option value="Херсон"></option>
+                                <option value="Чернівці"></option>
+                                <option value="Чернігів"></option>
+                                <option value="Житомир"></option>
+                                <option value="Вінниці"></option>
+                            </datalist>
+                        </li>
+
+                        <li>
+                            <input type="date" placeholder="Коли" class="when-they-go">
+                        </li>
+
+                        <li class="calendar"><img scr="Picture/calendar.png" class="calendar-image" alt="calendar-image"></li>
+                        <li>
+                            <a href="form.html">
+                                <input type="image" src="Picture/magnifier.png" class="btTxt-search" />
+                            </a>
+                        </li> 
+                    
+                </ul>
+            </div>
+        
+    </div>
+
+    
+    <div class="search-parameters">
+        <div class="main-search-parameters" id="id-main-search-parameters">
+                <form>
+
+                        <input type="text" placeholder="Звідки" class="where-are" list="citys">
+                        <datalist id="citys">
+                            <option value="Львів"></option>
+                            <option value="Київ"></option>
+                            <option value="Одеса"></option>
+                            <option value="Дніпро"></option>
+                            <option value="Харків"></option>
+                            <option value="Кривий-Ріг"></option>
+                            <option value="Сімферополь"></option>
+                            <option value="Донецьк"></option>
+                            <option value="Луганськ"></option>
+                            <option value="Запоріжжя"></option>
+                            <option value="Рівне"></option>
+                            <option value="Луцьк"></option>
+                            <option value="Тернопіль"></option>
+                            <option value="Ужгород"></option>
+                            <option value="Черкаси"></option>
+                            <option value="Херсон"></option>
+                            <option value="Чернівці"></option>
+                            <option value="Чернігів"></option>
+                            <option value="Житомир"></option>
+                            <option value="Вінниці"></option>
+                        </datalist>
+
+                    <input type="image" src="Picture/back-and-forth.png" name="saveForm" class="btn-back-and-forth" id="back-and-forth">
+
+                        <input type="text" placeholder="Куди" class="when-they" list="citys">
+                        <datalist id="citys">
+                            <option value="Львів"></option>
+                            <option value="Київ"></option>
+                            <option value="Одеса"></option>
+                            <option value="Дніпро"></option>
+                            <option value="Харків"></option>
+                            <option value="Кривий-Ріг"></option>
+                            <option value="Сімферополь"></option>
+                            <option value="Донецьк"></option>
+                            <option value="Луганськ"></option>
+                            <option value="Запоріжжя"></option>
+                            <option value="Рівне"></option>
+                            <option value="Луцьк"></option>
+                            <option value="Тернопіль"></option>
+                            <option value="Ужгород"></option>
+                            <option value="Черкаси"></option>
+                            <option value="Херсон"></option>
+                            <option value="Чернівці"></option>
+                            <option value="Чернігів"></option>
+                            <option value="Житомир"></option>
+                            <option value="Вінниці"></option>
+                        </datalist>
+
+                        <input type="date" class="when-they-go" >
+
+                    <div class="calendar"><img scr="Picture/calendar.png" class="calendar-image" alt="calendar-image"></div>
+                    <a href="form.html">
+                        <input type="image" src="Picture/magnifier.png" class="btTxt-search" />
+                    </a>
+                </form>
+        </div>
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <section class="main-page">
+        <div class="main-page-container" id="id-main-page-container">
+            <div class="main-page-picture"></div>
+            <div class="name"></div>
+            <h1 class="subhead">Free Travel</h1>
+        </div>
+    </section>
+
+
+    
+    <section class="main-directions">
+        <div class="main-derections-container" id="id-main-derections-container">
+            <h2 class="main-directions-title" id="id-main-directions-title">Популярні напрямки</h2>
+            
+            <div class="lviv">
+                <div class="lviv-top">
+                    <div class="lviv-top-name">Lviv</div>
+                </div>
+                <img src="Picture/darya-tryfanava-qJfyaZRgzVc-unsplash.jpg" alt="lviv-picture" class="lviv-picture">
+                <div class="lviv-main">
+                    <div class="lviv-kyiv">
+                        <div class="lviv-kyiv-text">
+                            Львів - Київ
+                        </div>
+                        <div class="lviv-kyiv-price">
+                            з 110 ₴
+                        </div>
+                    </div>
+                    <div class="lviv-odesa">
+                        <div class="lviv-odesa-text">
+                            Львів - Одеса
+                        </div>
+                        <div class="lviv-odesa-price">
+                            з 129 ₴
+                        </div>
+                    </div>
+                    <div class="lviv-kryvyi-rih">
+                        <div class="lviv-kryvyi-rih-text">
+                            Львів - Кривій Ріг
+                        </div>
+                        <div class="lviv-kryvyi-rih-price">
+                            з 150 ₴
+                        </div>
+                    </div>
+                    <div class="lviv-kharkiv">
+                        <div class="lviv-kharkiv-text">
+                            Львів - Харків
+                        </div>
+                        <div class="lviv-kharkiv-price">
+                            з 172 ₴
+                        </div>
+                    </div>
+                    <div class="lviv-dnipro">
+                        <div class="lviv-dnipro-text">
+                            Львів - Дніпро
+                        </div>
+                        <div class="lviv-dnipro-price">
+                            з 175 ₴
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ukraine">
+                <div class="ukraine-top">
+                    <div class="ukraine-top-name">Ukraine</div>
+                </div>
+                <img src="Picture/gleb-albovsky-sbPI02mZqxs-unsplash.jpg" alt="ukraine-picture" class="ukraine-picture">
+                <div class="ukraine-main">
+                    <div class="ivano-frankivsk-kyiv">
+                        <div class="ivano-frankivsk-kyiv-text">
+                            Івано-Франківськ - Київ
+                        </div>
+                        <div class="ivano-frankivsk-price">
+                            з 100 ₴
+                        </div>
+                    </div>
+                    <div class="lviv-przemysl">
+                        <div class="lviv-przemysl-text">
+                            Львів - Пшемисль
+                        </div>
+                        <div class="lviv-przemysl-price">
+                            з 326 ₴
+                        </div>
+                    </div>
+                    <div class="kyiv-przemysl">
+                        <div class="kyiv-przemysl-text">
+                            Київ - Пшемисль
+                        </div>
+                        <div class="kyiv-przemysl-price">
+                            з 1566 ₴
+                        </div>
+                    </div>
+                    <div class="odesa-kharkiv">
+                        <div class="odesa-kharkiv-text">
+                            Одеса - Харків
+                        </div>
+                        <div class="odesa-kharkiv-price">
+                            з 590 ₴
+                        </div>
+                    </div>
+                    <div class="odesa-dnipro">
+                        <div class="odesa-dnipro-text">
+                            Одеса - Дніпро
+                        </div>
+                        <div class="odesa-dnipro-price">
+                            з 233 ₴
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kyiv">
+                <div class="kyiv-top">
+                    <div class="kyiv-top-name">Kyiv</div>
+                </div>
+                <img src="Picture/maksym-diachenko-Xu2eKxcgBzs-unsplash.jpg" alt="kyiv-picture" class="kyiv-picture">
+                <div class="kyiv-main">
+                    <div class="kyiv-lviv">
+                        <div class="kyiv-lviv-text">
+                            Київ - Львів
+                        </div>
+                        <div class="kyiv-lviv-price">
+                            з 130 ₴
+                        </div>
+                    </div>
+                    <div class="kyiv-kharkiv">
+                        <div class="kyiv-kharkiv-text">
+                            Київ - Харків
+                        </div>
+                        <div class="kyiv-kharkiv-price">
+                            з 101 ₴
+                        </div>
+                    </div>
+                    <div class="kyiv-odesa">
+                        <div class="kyiv-odesa-text">
+                            Київ - Одеса
+                        </div>
+                        <div class="kyiv-odesa-price">
+                            з 131 ₴
+                        </div>
+                    </div>
+                    <div class="kyiv-dnipro">
+                        <div class="kyiv-dnipro-text">
+                            Київ - Дніпро
+                        </div>
+                        <div class="kyiv-dnipro-price">
+                            з 98 ₴
+                        </div>
+                    </div>
+                    <div class="kyiv-mariupol">
+                        <div class="kyiv-mariupol-text">
+                            Київ - Маріуполь
+                        </div>
+                        <div class="kyiv-mariupol-price">
+                            з 161 ₴
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="about-us">
+        <div class="about-us-container">
+            <h2 class="about-us-title" id="id-about-us-title">Free Travel</h2>
+            <div class="about-us-main">
+                <p class="about-us-main-text">
+                    Ми програмісти-мандрівники, тому знаємо, як важливо вчасно підібрати потрібний 
+                        та дешевий транспорт. Залізниця - як один з найпопулярніших транспортів 
+                        для подорожей, через свою доступність, тому ми зробили цей сайт 
+                        на основі бази даних квитків УкрЗалізниці.
+                </p>
+                <div class="main-gradient"></div>
+                <div class="train-picture-style"></div><img src="Picture/train.gif" alt="train-picture" class="train-picture"></div>
+            </div>
+            <div class="about-us-table">
+                <p class="about-us-first-additionally-text">
+                    Ми переглянули підхід людей  до подорожей залізницею та звичайних 
+                    поїздок, тому ми пропонуємо якісну аналітику руху поїздів, їхню навантаженість та інше... 
+                </p>
+                <div class="table-gradient"></div>
+                <div class="table-picture-style"><img src="Picture/board.gif" alt="table-picture" class="table-picture"></div>
+            </div>
+            <div class="about-us-ticket">
+                <p class="about-us-second-additionally-text">
+                    Кешбек, та система індивідуальних знижок, 
+                    допоможуть активному користувачу нашого сайту зекономити
+                    кошти на купівлі квитків.
+                </p>
+                <div class="ticket-gradient"></div>
+                <div class="ticket-picture-style"></div><img src="Picture/ticket.gif" alt="ticket-picture" class="ticket-picture">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="comments">
+        <h2 class="comments-title" id="id-comments-title">Comments</h2>
+        <div class="comments-container">
+            <div class="comments-list">
+                <div class="comment-1-gradient"></div>
+                <div class="comment-1">
+                    <img src="https://proizd.ua/assets/images/people/review_olhovik.jpg" alt="person-1-image" class="person-1-image">
+                    <img src="Picture/five.png" alt="person-1-mark" class="person-1-mark">
+                    <div class="person-1-name"><blockquote>Максим Ольховик</blockquote></div>
+                    <div class="person-1-date"><blockquote>15 Серпеня</blockquote></div>
+                    <div class="person-1-comment"><cite>“Вперше замовляв квиток через цей сайт, мені сподобалось, зручний сервіс”</cite></div>
+                </div>
+
+                <div class="comment-2-gradient"></div>
+                <div class="comment-2">
+                    <img src="https://proizd.ua/assets/images/people/review_savenko.jpg" alt="person-2-image" class="person-2-image">
+                    <img src="Picture/five.png" alt="person-2-mark" class="person-2-mark">
+                    <div class="person-2-name"><blockquote>Савенко Олена</blockquote></div>
+                    <div class="person-2-date"><blockquote>23 Серпеня</blockquote></div>
+                    <div class="person-2-comment"><cite>“Велике спасибі. У вас на сайті вирішила всі свої питання щодо поїздки!”</cite></div>
+                </div>
+
+                <div class="comment-3-gradient"></div>
+                <div class="comment-3">
+                    <img src="https://proizd.ua/assets/images/people/review_ericsson.jpg" alt="person-3-image" class="person-3-image">
+                    <img src="Picture/five.png" alt="person-3-mark" class="person-3-mark">
+                    <div class="person-3-name"><blockquote>Наталія Ерікссон</blockquote></div>
+                    <div class="person-3-date"><blockquote>28 Серпеня</blockquote></div>
+                    <div class="person-3-comment"><cite>“Я звернулася і мені дали інформацію, яка мене цікавила”</cite></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="section-1">
+                <input type="image" src="Picture/locomotive.png" name="saveForm" class="locomotive-image" id="saveForm" />
+                <img src="Picture/subway.png" alt="subway-image" class="subway-image">
+                <input type="image" src="Picture/twitter.png" name="saveForm" class="twitter-image" id="saveForm" />
+                <input type="image" src="Picture/youtube.png" name="saveForm" class="youtube-image" id="saveForm" />
+                <input type="image" src="Picture/facebook.png" name="saveForm" class="facebook-image" id="saveForm" />
+                <input type="image" src="Picture/linkedin.png" name="saveForm" class="linkedin-image" id="saveForm" />
+                <input type="image" src="Picture/viber.png" name="saveForm" class="viber-image" id="saveForm" />
+                <input type="image" src="Picture/telegram.png" name="saveForm" class="telegram-image" id="saveForm" />
+                <div class="number-of-phone">098 422 24 44</div>
+                <div class="years-of-works">© 2022-2022 freetravel.ua</div>
+                <a href="feedback.html">
+                    <div class="question">Є питання ? Пишіть !</div>
+                </a>
+                <div class="email">freetravel@gmail.com</div>
+            </div>
+            <div class="footer-border-1"></div>
+            <div class="section-2">
+                <img src="Picture/УкрЗалізниця.png" alt="ukr-railway-image" class="ukr-railway-image">
+                <img src="Picture/visa.png" alt="visa-image" class="visa-image">
+                <input type="image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISEhgVEhUZGBQaGRwcGRoZGBgaGB0YGhoaGhkeGBocJC4lHR8rIRgYJzgpKy80NTU1Gic7QDs0Py40NTEBDAwMEA8QHhISHz8nJSs2PzY+NTU9ND0/Oj00PzE0Pz09Oj00PTY3PTQ0NTQxNDQ0NjU/NjQ0NDQ2NDE9MTQ0Nf/AABEIAHsBmgMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcEBQECCAP/xABGEAACAQMCAwUDBwkHAgcAAAABAgADBBEFIQYSMQdBUWFxEyKBFCMyQpGxsjRSYnJzgqHB0RUkMzZ0hLNDwhYXJTVTkqL/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAgMFBAYB/8QAJhEBAAICAAUDBQEAAAAAAAAAAAECAxEEBRIhMSJBYRNRcYGhMv/aAAwDAQACEQMRAD8ApmIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIHIkm0zhN66A+0VXYZRWBwcjIBYdD07pGhLOsU+bT9RPwiX4McX3ty8VmtiiOn3V9qek17ZuWshU9x7j6HoZgy77Wolwnsq6q+e5gCG+3o0jOvdnQOXs2wevs3O37r93oftld6zSdSjh4ut+1u0q1iZV7ZVKDlKqMjDqGGD8PEecxZB2ROyIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgciWxYJ81T/Zp+ESpx1lwacnzNP9RPwCdXCzqZZ3MZ9NXKpJBpV7z4Sp9LuPj6+c1IpzuqS7LSt66ll1v0y32o6RQuU5K6K692eoPirDdT6SuOIuzOqmXs29ovXkbAcfqno38D6yydKvufCVD73cfHyPn983ApzIvNsVtS0sGWYjcT2eXq1F6bFXVlYbEMCCD5g7ifKektb4Ztb1OW4pgtjAqLhXX0b+RyPKVVxN2aXVtl7f5+kN/dHzijzT63qv2CSpmrbt4d1MsW89kBicsMHecS1aREQERJ5wjwF8ooNe39Q29koLc313A70yDgZ2BwcnoDAgcSd3fGVpbtyabp9uqL0q3Ce1rN5gsfd7/H4Tmh2nXYOK1C1qp3o1BQCPIr0/jAgcS79HstB1yi3LQW1rovM4p8tMqPz1wORk9Rt34yDKf1m3pUriolCr7akrEJU5eXmHjj7RnvxmBgREQEREBERAREQEREDKsbGrXcJRRnc9FRSx/h3eclLdmerKpZqAUAZJNSmAABkknm2xIhSqsu6sVPkSPuno2/Y/+GicnJsF3zvvSXOYHnKonKSMg4JGQcg48COonziICIiAiIgIiICJNeyvRLe+vzRuk56fsnbHMy+8GQA5Ug95kSvkC1XVRgK7ADyDECBjxEQEREBERAREQEREBERA5WXVpifMUv2afgWUqvWXppSfMUv2afgWX4J1Ms3mU+mrkJO4SZASdxTl82Y+2OtOSDSr7mwjn3u4+PkfP75qQk7inKM2OuWupTx5ppbcJWEmNe3IpDA3Y9B4eZmtp62ExTc5qH6Of+7z++dCCxyxyT1mHkrNLTEvVcDw31axltGon+o9r/CttfEtUXlrH/qLsc/pDo3xlZcQcE3Vplse1pD66AnA/SXqv8R5y8lSfVUn2vFWp8w0suGlvbU/DzDOJbXadw1a07c3NNVpVedRhcKr8x393pzDc5HnmVLNHHkjJXqhmXrNZ1KScB6CL/UKVBv8PJep+zTdh5Z2X96Tntx1cq9Cxp+7SWmKjBdhnLIi48FCk4/SHhMTsGRfl1Yn6Qoe76F1z9wmF24UiuqAno1BCPTmdfvUyaKuoiIGVb39WnTenTdlSoAKig4DBSSobxGSdpixNzwpo5vr2jbZwKjgMR1CKCzkefKDAy+H+ELi8pmtlKNqv069ZuWmMdcd7HuwO/bM2Vpw7o9RxTOrEOdgxtnWln9ZmGB5nAkq7bqvsKdpZ0RyUArNyLsp5SqpkeXvfFsyn4E44s7N7ywQ1lK16A3L0wcqPF17h5gkekg8vvsV1w3NnUtavvGhgLzb5pPzYU56gEMMdACokZs+AqR4he2YZtkHyjl7jTJXlQ+XMwXzAgRXSeCq1Sh8puaiWtqelSrnmb9nTHvN/DPdmbLSuE9JunFKjquKzbKHtmRWPQAFm6knYZyfCZXbZfu+orQzinRpryqOgLjmYgenKP3ZXIOIEq4u4EvNM96qoeiTgVUyVz3Bwd1Prt4EyLKpJAAyTsAOuZ6Q4A1FdW0kJdAOQDRq535uUDDH9IqVOfHeQvsv4RVNVufbAP8AJG5UyAcuWPI/qFXPqwPdAhtvwPWCo15XoWauMqtw/LUK+IpgFgP1sSUUex6o9MVUvqLUyOYMiMyleuQQd/hIp2kV6j6rdGoSSKhVcnoigBQPAYx9smPYZrrrXqWTEmmyGogJ6OpAYAdwKkk/q+cCDcQaJa2qj2V9TuHP1aSNgDxZycA+W5l3X3+WP9gn/Esqvtg0unbao/sgAKtNapUDADMWVsDzKFvVpal9/lj/AGCf8awPOtCi1RwqKWdjhVUFmJPQADcmTB+C6NqF/tS9S1qMARRRGr1Qp6Fwmyd/eZK+wrQkdqt44DMhFOnkfRJXLsPPBUA+BbxkJ/sXUNVua1ZKTMGqMXqOeWmo5sbu2BhRtgZOB0gSBuy/5Rbe30y8S6XH0Svs3yNyu5OG8mxK5q02RirqVYEgggggjYgg9CJanC2tWWgLVDXPyqtU5c0rcZpIy53NVtmO+MgfCQDinWRfXdS4FJaRqEEqpJGQAMknvOMnYbwNNJ7c9mV1zWy0HWqbimahPKUSkgCHLsSdvf7t9tgZApcnajrlehp1jQpMUStRBqFSQzKiUwEyPqnnOR348M5DRjgXSqZ5K+sUhVGxCIGQHvHNzf0mr4r7P7ixpivTdLi1OPnafcD0LAE4U+IJHpIXLP7G9YLVn0+t79tXRsI26hwPeAB6Bl5s+YEDG7Df/dG/07/ipyD3lJnuXRAS7VWVQBkkliAAO8kmWP2W6f8AJtfuKH/xpXQZ7wtRAp+IwfjIXpWs/IdRNyKa1ClSoQrEgZJYA5HeM5gSWn2b07dFfVL6nas4yKeA748/eG/jgEec+lPs6s7sEadqdOtVAJFN15WIHhg5x58shWv6vVv7qpXqZLOxIUEtyr9VV8gNo0lLijcU6iI6ujqQwVhjBHlA+lLQ3W9W0uT7BjUCMzLkKScA4B3U5G4OMHM+vGHDdTTbk0KjBvdVlcAgMrDqAemDkfCTLt2oqL2g4GGegObz5XbHx3x8BMni/wD9W0O3vwM17f3K2NzjIVifjyP5BzAqaSngvg99TNUiotGlRXmeoylgM5wMAjuVj17pFpbOon+yOHkofRub0ln8QjAFvsTkX1cwKqqgBiFPMASAcYyM7HHdnwnziICIiAiIgciX7pVP+70f2SfgWUEJ6I0dP7tR/ZU/+NZZjnW2XzSfTX9u4SdxTmQEnYU5ZNmJ1McU5g6rqC0RgYLnoPAeJn01jU1oDlXBqHoO4Dxb+kiLuzMWYksTkk9cyFrTp6Pk3J5zzGbNHp9o+7u1QsSzHLHcmSTQ9WDYp1Tv0Vj3+R8/vkYE0+p8SUaOVX338FPug+bf0mflxzfs9rm+lTHq06iPC4HKqpZyFUDJLEAAeJJ6SCcR9pdCjlLQCs/TnORSU+Xe/wAMDzlaazxLd3gC1qrFB0QEhNu8jvPmcmaWRxcHEd79/hgZOIme1Wy1rW7i8fnuKhcjOBsFUHuVRsO77JrIidsRERqHNM7S3s01tbLUqTucU3zTc9wV8YJ8gwUn0lr9sfDDXlqtxRXmq0MkgblqTbtgd5BAPpmee5bnZ92pCgi2+oczIvupWA5mVR0WoOrAdARk+XfD4qOZumvQWoGuEeog+qjBCx8CxBwPQZ9JcXEHAem6oTX026pJUbcorKaRbx5R7yHx2+Ehd12V6lTO5oEfne2VR/8ArBgSTgDTtG1arVT+zPZCmitn5XcOTk4x1XE5WlZ6dxJb0LeitGkByE89Riz1UIUkuxxuVAxjqZ27PlttEatUvry2zUVVCUqhquMHPvBBt1kI7QtcpXmovcWzNyEIFYgqcqoGQOo3ECxO3rTGejb3Kj3abOj+j8pQ+mUYfvCUhLr0DtCstQtDZ6uQjMvIzke4+PotnfkcEA5O2RnyEO1Ds9KsWoX1m9DqrtcIh5f0huM+hMDddgnN8sr4+j7EZ9ecY/nJhp2t024mr0wR+TCkD41EZajKPgz/ABWQmx4is9EtqlKxqC6vqv06yg+xQDPKFJ+njJO2xO56ASvrXUa1KutwjkVlfnD5JYtnJJPfnfOeuTAsXt20wpeUq4Hu1KfLnH16Z3yf1WX7JVsvA8X6Xrll8nv3FtX2IZsBFqAbPTc7AHcEMQcEjzkFr9nzo2WvrEUc/wCIbgDbx5cZz5QJ12Ac3ye6z9H2iY9eVub+HLNPw9xzRt9cu3qHFrcVCvONwpQ8tNzj6pHNn9YHumDf8XW2n2B0/SmZ2bPtrorycxbZvZjr0HKCeg6ZO8rWBc/afwRVvKovtOC1hUUe0VGUkkABXTuYFcA4/NHXJmt4B0KppLtqOpD5PRpoyIrY9pUqONgqDfoG6/cCZHOEdH1OnXo1adtctRWojMqqyKyqwJ6kA7Dv2l2cf8J/2rahFfkqI3OhYe4WwQQ46gHPUbjz6QPP3GHED6jeVLhhyhsKi9eVF2UZ8epPmTLyvv8ALH+wT/jWUBq2k17Su1C4UpUU4IPQg9GB6FT4y9Kuuaa2kfITf0BU+TLR5uYleYUwuemeXIga3sFvVNtcUM+8lRXx+i68uR47oftEgHaVaXVre1KFSpUagzF6Ks7FORiSAqk4HKSV/dnw0vUn0a9Wpb16VwMYqCkXKMh6qSyjfvBGcED0luXWpaJr1uq1aqo4GQHZademx68vNsw6ZxkHaB53iWTq3Z5YWxLVNWpLT6heQPUI8Aqvkn0EgepGh7Qi2D+yGwaoRzt+kwXZfQZx4mBhS0O2D8m0v/Tt+GjKvl9cW3Vi1rYWuoKVp1qAKV1+lRqItMKen0CHOfQeoChZOex+1apq9Ir0RXdv1eQrv8WUfGZv/lPcu3Nb3VtVoHdanOR7p6EqAf4Ezcm+seHbWpTtay3Go1Ryl1wVp7bdM8oGchckk4zgdA+3BFytXie8Zfo4rgefK6Ln48uZEeC+GF1LVKlOoSKKF3qY2JUPgKD3ZLDfwBmZ2M3aJqbPVdVBovlnYDLFkO5Y9TvMTgXiZNP1R6lXejULo5G+FZwwbA6gFR8CYG21rtF+Su1tpFClb0UJQVOQNUYqcc2+2CR9bmJ6nwmpt+07WWdVN1kFgP8ABt+8gfmTear2aU7mq1fT722ag7FgHqYK8xyRlQcgZ78Hu85i0tL0zRT7a4uEvL1N6dClvSRxurVG78HBwceh6wMvt6/KrbPX2B/GZh9jupoa1awr70bqmygHpzhSCB6qW/8AqJ9+2y7pV6trVpVEcGkwPI6tg5Db4O30v4SuNPvHoVUq0zh6bKyn9JSCPugSrh7g96ms/IaikpSqMannSQ5z6MOUfvic9qmvfLNRcKc0qPzVPHT3fpn4tn4AS0tc1a3t7Gpq9Havc29Kmg22c83xyM+9v/0hPPJgIiICIiAiIgcz0joqf3Wh+xp/gWebp6U0T8lofsaf4Fn2rJ5r/mv5ZYWanWtXWgOVMGqeg7lHi39JxrmsrQHImDVI2Hco8W/kJANS1VKWWqtljvjqzH0nTXH26reFnKuVxk1mz9qx4j7s53Z2LMSWJySepM1mo61RobM3M35q7n4nukY1HiOrUyqe4vkfePq39Jo8ym9onw9Nk4+KR04obbVNdrV8j6Kfmj+Z6maecziVs6+S153adkREIEREBERAREQEREBERAREQEREBLs4O0GhpmknU6lJatyaXtE5twqtj2YUdxOQSeu+JScvHs/4vsrvTxp186owQ0RzHlV6eOVeVjsHAwMddgR5BVGs8UX145a4uHbP1QxVB5Ki7D7Jm8HcY3OmVc0yWosR7Skx91h3kfmtjvHxyNpJ9X7HrxXJtKlOtSO6ktyNjuB+qfUHfwE1i9nrW5D6lc0LaiD7wDh6zAdRTRc5YjPp4GBL+25KNaytLtB7zMAp6E06lM1N/QqvpzHxlKyX8e8VjUKiJRUpaUF5KKnqRgDmYeJCgAdwEiEBERAREQEtDtg/JtL/ANO34aMq+bLU9aubpaa3FVnWmvLTBx7qnAIGB+iv2QNbERAREQEREBN/oXC13d16dJaFQK5XLlGCqh35yxGMY38+7rNBJeO0bVRQFBbjkRVCgqiK4UDAAYDI27xvA3Ha5qtMVKOn25+YtUCkA5+cxy4PiVUAderNK4neo5YksSSTkknJJPUk95nSAiIgIiICIiB2Blx23HdqlhS5XHthTVGUg5RkUAnH1txtKanOZKs9M70qyYaZJibRvU7SXVOKalQt7PIyd2O7n+QkceoWOSSSepO5nWcT7a82ncr7XmSIiQRIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIH1Su6jAYgeAJE+ZOes4iAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgf//Z" name="saveForm" class="google-play-image" id="saveForm" />
+                <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHS5T2Q4j8z83KRmIIbejiDa4RR6ZdJH1WMw&usqp=CAU" name="saveForm" class="app-store-image" id="saveForm" />
+            </div>
+            <div class="footer-border-2"></div>
+            <div class="section-3">
+                <div class="final-text">
+                    FREETRAVEL™ train tickets
+                    <br>
+                    <br>
+                    If you have to go far or close distance, then FREETRAVEL™ is a service for buying railway tickets to Ukrzaliznytsia - what you need. Without a trip to the ticket office. Without standing in line.
+                    <br>
+                    <br>
+                    Simply. Quickly. Available.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>

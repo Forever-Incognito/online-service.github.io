@@ -1,0 +1,3610 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+  body{
+    margin: 15;
+    width: 320px;
+    background: #F0F3FF;
+  }
+
+
+
+  /*----------     Navbar     ----------*/
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+    height: 75px; 
+    left: 0;
+    top: 0px; 
+    z-index: 9999; 
+  
+    background-color: #0F143D; 
+  }
+
+
+  .navbar-container {
+    height: 80px;
+    top: 300px;
+  }
+
+
+  /*   Menu    */
+
+
+  .menu{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 4px;
+    top: 9px;
+  }
+  
+  .menu-navigation{
+    background-color: #0F143D;
+  }
+
+  .menu-navigation #myLinks {
+    margin: 60px 0px;
+    display: none;
+  }
+
+  .menu-navigation a {
+    left: -10px;
+    color: #8B91C3;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active {
+    position: absolute;
+    color: #8B91C3;
+  }
+
+  .fa-fa-bars{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /*****          Primary navigation          *****/
+
+
+  .primary-nav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul #primary-nav{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+
+  .logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 37px;
+    top: 9px;
+  }
+
+  .btTxt-nav-search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 17px;    
+  }
+
+  .language{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 200px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .btTxt-user{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 270px;
+    top: 17px;    
+  }
+
+  .nav-search-parameters{
+    display: none;
+  }
+
+
+
+  /*----------     Pessenger     ----------*/
+
+
+
+  .pessenger{
+    position: absolute;
+    width: 283px;
+    height: 505px;
+    left: 20px;
+    top: 136px;
+  }
+
+  .pessenger-block{
+    position: absolute;
+    width: 283px;
+    height: 520px;
+    left: 0px;
+    top: 0px;    
+
+    background: #0F143D;
+    border-radius: 30px;
+  }
+
+  .pessenger-name{
+    position: absolute;
+    width: 247.46px;
+    height: 24px;
+    left: 80px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .pessenger-vector{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 30px;
+    top: 78px;
+
+    border: 2px solid #8B91C3;
+  }
+
+
+  /*****          Lastname          *****/
+
+
+  .lastname-main{
+    position: absolute;
+    width: 283px;
+    height: 116px;
+    left: 20px;
+    top: 85px;
+  }
+
+  .lastname-name{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 60px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .lastname-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 18px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .lastname-block[type=text]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Name          *****/
+
+
+  .name-main{
+    position: absolute;
+    width: 283px;
+    height: 116px;
+    left: 20px;
+    top: 200px;
+  }
+
+  .name-name{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 95px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .name-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 18px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .name-block[type=text]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Date          *****/
+
+
+  .date-main{
+    position: absolute;
+    width: 283px;
+    height: 116px;
+    left: 20px;
+    top: 315px;
+  }
+
+  .date-name{
+    position: absolute;
+    width: 210px;
+    height: 34px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .date-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 18px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .date-block[type=date]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    color: #0F143D;
+  }
+
+  .pessenger-warning{
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 30px;
+    top: 440px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+
+  /*----------     Train     ----------*/
+
+
+
+  .train{
+    position: absolute;
+    width: 300px;
+    height: 725px;
+    left: 20px;
+    top: 715px;
+  
+    display: flex;
+  }
+  
+  .train-block{
+    position: absolute;
+    width: 283px;
+    height: 2020px;
+    left: 0px;
+    top: 0px;
+  
+    background: #0F143D;
+    border-radius: 30px;
+  }
+  
+  .train-name{
+    position: absolute;
+    width: 247.46px;
+    height: 24px;
+    left: 42px;
+    top: 15px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #8B91C3;
+  }
+  
+  .train-vector{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 30px;
+    top: 78px;
+  
+    border: 2px solid #8B91C3;
+  }
+
+  .left-car{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 110px;
+  }
+  
+  .left-arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    
+    border-radius: 25px;
+    transform: rotate(180deg);
+  }
+  
+  .right-car{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 240px;
+    top: 110px;
+  }
+  
+  .right-arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    
+    border-radius: 25px;
+  }
+  
+  .free-space{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 27px;
+    top: 170px;
+  }
+
+  .free-space-block{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+    border-radius: 10px;
+  }
+
+  .free-space-text{
+    position: absolute;
+    width: 183px;
+    height: 34px;
+    left: 50px;
+    top: -28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .occupied-seat{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 27px;
+    top: 220px;
+  }
+
+  .occupied-seat-block{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+    border-radius: 10px;
+  }
+
+  .occupied-seat-text{
+    position: absolute;
+    width: 183px;
+    height: 34px;
+    left: 50px;
+    top: -28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Car          *****/
+  
+  
+  .car{
+    position: absolute;
+    width: 215px;
+    height: 875px;
+    left: 35px;
+    top: 285px;
+  
+    background-color: #8B91C3;
+    border-radius: 30px;
+  }
+  
+  .car-text{
+    position: absolute;
+    width: 247.46px;
+    height: 24px;
+    left: 80px;
+    top: 85px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #8B91C3;
+  }
+  
+  .wc-first{
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 146px;
+    top: 20px;
+  
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+    border-radius: 20px;
+  }
+  
+  .wc-text-first{
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    left: 1px;
+    top: -12px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #8B91C3;
+  
+  
+  }
+  
+  .personal{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 146px;
+    top: 65px;
+  
+    border-radius: 20px;
+  }
+
+
+  /*****          Compartment-1          *****/
+
+
+  .compartment-1{
+    position: absolute;
+    left: 30px;
+    top: 85px;
+  }
+
+  .place-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 100px;
+    top: 29px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-1-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 100px;
+    top: 65px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-3-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 136px;
+    top: 29px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-2-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 136px;
+    top: 65px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-4-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-2          *****/
+
+
+  .compartment-2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 190px;
+  }
+
+  .place-5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-5-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-7-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-6-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-8{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-8-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-3          *****/
+
+
+  .compartment-3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 266px;
+  }
+
+  .place-9{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-9-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 11px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-11{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-11-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-12{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 37px;
+    top: 37px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-12-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 3px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-10{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-10-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5.5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-4          *****/
+
+
+  .compartment-4{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 343px;
+  }
+
+  .place-13{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-13-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-15{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-15-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-14{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-14-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-16{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-16-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-5          *****/
+
+
+  .compartment-5{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 420px;
+  }
+
+  .place-17{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-17-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-19{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-19-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-18{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-18-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-20{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-20-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-6          *****/
+
+
+  .compartment-6{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 497px;
+  }
+
+  .place-21{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-21-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-23{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-23-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 6px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-22{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-22-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-24{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-24-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-7          *****/
+
+
+  .compartment-7{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 574px;
+  }
+
+  .place-25{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-25-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-27{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-27-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-28{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 36px;
+    top: 37px;
+    
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-28-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-26{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-26-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-8          *****/
+
+
+  .compartment-8{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 652px;
+  }
+
+  .place-30{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 37px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-30-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-29{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-29-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 6px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-32{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 37px;
+    top: 37px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-32-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-31{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-31-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Compartment-9          *****/
+
+
+  .compartment-9{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 130px;
+    top: 729px;
+  }
+
+  .place-33{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-33-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-35{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-35-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 6px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-34{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-34-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-36{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-36-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 1          *****/
+
+
+  .side-seats-1{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 730px;
+  }
+
+  .place-38{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-38-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-37{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-37-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 2          *****/
+
+
+  .side-seats-2{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 652px;
+  }
+
+  .place-40{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-40-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-39{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-39-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 3          *****/
+
+
+  .side-seats-3{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 574px;
+  }
+
+  .place-42{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-42-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-41{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-41-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 4          *****/
+
+
+  .side-seats-4{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 497px;
+  }
+
+  .place-44{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-44-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-43{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-43-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 5          *****/
+
+
+  .side-seats-5{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 421px;
+  }
+
+  .place-46{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-46-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-45{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-45-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 6          *****/
+
+
+  .side-seats-6{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 344px;
+  }
+
+  .place-48{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-48-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-47{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-47-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 7          *****/
+
+
+  .side-seats-7{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 267px;
+  }
+
+  .place-50{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 1px;
+    top: 1px;
+
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+  }
+
+  .place-50-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 4px;
+    top: -20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .place-49{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-49-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 8          *****/
+
+
+  .side-seats-8{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 192px;
+  }
+
+  .place-52{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-52-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-51{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-51-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Side seats 9          *****/
+
+
+  .side-seats-9{
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 15px;
+    top: 115px;
+
+  }
+
+  .place-54{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-54-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .place-53{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 36px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+  }
+
+  .place-53-text{
+    position: absolute;
+    width: 10.33px;
+    height: 24px;
+    left: 5px;
+    top: -19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  .wc-second{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 146px;
+    top: 820px;
+
+    background: #0F143D;
+    border: 1px solid #8B91C3;
+    border-radius: 20px;
+  }
+
+  .wc-text-second{
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    left: 1px;
+    top: -12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+
+
+  }
+
+
+  /*****          About place          *****/
+
+
+  .even-seats{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 21px;
+    top: 1180px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .odd-places{
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    left: 15px;
+    top: 1240px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+  /*****          Pessenger active blocks          *****/
+
+
+  .pessenger-check{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: 80px;
+    top: 1280px;
+  }
+
+  .pessenger-check-text{
+    position: absolute;
+    width: 240px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .pessenger-checkbox-form{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: -20px;
+    top: 55px;
+    padding: 20px;
+
+    color: #8B91C3;
+  }
+
+  .pessenger-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .pessenger-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #8B91C3;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .pessenger-container:hover input ~ .checkmark {
+    background-color: #8B91C3;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .pessenger-container input:checked ~ .checkmark {
+    background-color: #8B91C3;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .pessenger-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .pessenger-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #0F143D;
+  }
+
+
+  /*****          Additional active blocks          *****/
+
+
+  .additional-check{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: 80px;
+    top: 1450px;
+  }
+
+  .additional-check-text{
+    position: absolute;
+    width: 240px;
+    height: 34px;
+    left: -50px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .additional-checkbox-form{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: -20px;
+    top: 55px;
+    padding: 20px;
+
+    color: #8B91C3;
+  }
+
+  .additional-full{
+    top: 30px;
+  }
+
+  .additional-full-text{
+    position: absolute;
+    width: 183px;
+    height: 34px;
+    left: 25px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  /* Customize the label (the container) */
+  .additional-container{
+    display: block;
+    position: relative;
+    width: 110px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .additional-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark-check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #8B91C3;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .additional-container:hover input ~ .checkmark-check {
+    background-color: #535EB8;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .additional-container input:checked ~ .checkmark-check {
+    background-color: #8B91C3;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark-check:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .additional-container input:checked ~ .checkmark-check:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .additional-container   .checkmark-check:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #0F143D;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  } 
+
+
+  /*****          More active blocks          *****/
+
+
+  .more-check{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: 70px;
+    top: 1620px;
+  }
+
+  .more-check-text{
+    position: absolute;
+    width: 240px;
+    height: 34px;
+    left: 35px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .more-checkbox-form{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: -20px;
+    top: 55px;
+    padding: 20px;
+
+    color: #8B91C3;
+  }
+
+  /* Customize the label (the container) */
+  .more-container{
+    display: block;
+    position: relative;
+    width: 155px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .more-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .more-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #8B91C3;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .more-container:hover input ~ .more-checkmark {
+    background-color: #535EB8;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .more-container input:checked ~ .more-checkmark {
+    background-color: #8B91C3;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .more-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .more-container input:checked ~ .more-checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .more-container   .more-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #0F143D;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  } 
+
+
+  /*****          Price          *****/
+
+
+  .result{
+    position: absolute;
+    width: 129px;
+    height: 178px;
+    left: 70px;
+    top: 1800px;
+  }
+
+  .result-text{
+    position: absolute;
+    width: 129px;
+    height: 34px;
+    left: 10px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .price-text{
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    left: -10px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .result-explanation{
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: -35px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+
+  /*----------     Contacts     ----------*/
+
+
+
+  .contacts{
+    position: absolute;
+    width: 283px;
+    height: 420px;
+    left: 20px;
+    top: 2800px;
+
+    display: flex;
+  }
+
+  .contacts-block{
+    position: absolute;
+    position: absolute;
+    width: 283px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+
+    background: #0F143D;
+    border-radius: 30px;
+  }
+
+  .contacts-name{
+    position: absolute;
+    width: 247.46px;
+    height: 24px;
+    left: 75px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .contacts-vector{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 30px;
+    top: 78px;
+
+    border: 2px solid #8B91C3;
+  }
+
+
+  /*****          Email          *****/
+
+
+  .contacts-email{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 20px;
+    top: 120px;
+
+    display: flex;
+  }
+
+  .contacts-email-picture{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+  }
+
+  .contacts-email-text{
+    position: absolute;
+    width: 190px;
+    height: 64px;
+    left: 60px;
+    top: -24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .contacts-email-main{
+    position: absolute;
+    width: 230px;
+    height: 116px;
+    left: 2px;
+    top: 10px;
+  }
+
+  .contacts-email-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: -40px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .contacts-email-block[type=email]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+
+    text-decoration-line: #0F143D;
+  }
+
+
+  /*****          Phone          *****/
+
+
+  .phone{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 20px;
+    top: 280px;
+
+    display: flex;
+  }
+
+  .phone-picture{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+  }
+
+  .phone-text{
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 55px;
+    top: -24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .phone-main{
+    position: absolute;
+    width: 230px;
+    height: 116px;
+    left: 2px;
+    top: 10px;
+  }
+
+  .phone-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 0px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .phone-block[type=tel]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+
+    text-decoration-line: #0F143D;
+  }
+
+  .contacts-warning{
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 30px;
+    top: 420px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+
+
+  /*----------     Pages navigation     ----------*/
+
+
+
+  .left-page{
+    width: 120px;
+    height: 50px;
+    left: 30px;
+    top: 3390px;
+
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .left-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .left-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 32px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+  .right-page{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 180px;
+    top: 3390px;
+    
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .right-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .right-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 15px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+
+
+
+    /*----------     Footer     ----------*/
+
+
+
+  .footer-container{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 1680px;
+    
+    background: #0F143D;
+  }
+  
+  
+  /*   section 1   */
+  
+  
+  .locomotive-image {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 25px;
+  }
+  
+  .subway-image {
+    display: none;
+  }
+  
+  .twitter-image {
+    display: none;
+  }
+  
+  .youtube-image {
+    display: none;
+  }
+  
+  .facebook-image {
+    display: none;
+  }
+  
+  .linkedin-image {
+    display: none;
+  }
+  
+  .viber-image {
+    display: none;
+  }
+  
+  .telegram-image {
+    display: none;
+  }
+  
+  .number-of-phone {
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 13.39px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .years-of-works {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 13.5px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .question {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .email {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 180px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .footer-border-1{
+    display: none;
+  }
+  
+  
+  /*   section 2   */
+  
+  
+  .ukr-railway-image {
+    display: none;
+  }
+  
+  .visa-image {
+    display: none;
+  }
+  
+  .google-play-image {
+    position: absolute;
+    width: 138.64px;
+    height: 39px;
+    left: 13.5px;
+    top: 270px;
+
+  }
+  
+  .app-store-image {
+    position: absolute;
+    width: 138.64px;
+    height: 40px;
+    left: 170px;
+    top: 270px;
+    
+    
+  }
+  
+  .footer-border-2{
+    display: none;
+  }
+  
+  
+  /*   section 3   */
+  
+  
+  .final-text{
+    display: none;
+  }
+}

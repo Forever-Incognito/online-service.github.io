@@ -1,0 +1,1772 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+  body{
+    margin: 15;
+    width: 320px;
+    background: #F0F3FF;
+  }
+
+
+
+  /*----------     Navbar     ----------*/
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+    height: 75px; 
+    left: 0;
+    top: 0px; 
+    z-index: 9999; 
+  
+    background-color: #0F143D; 
+  }
+
+
+  .navbar-container {
+    height: 80px;
+    top: 300px;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  
+  /*   Menu    */
+
+
+  .menu{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 4px;
+    top: 9px;
+  }
+  
+  .menu-navigation{
+    background-color: #0F143D;
+  }
+
+
+  .menu-navigation #myLinks {
+    margin: 60px 0px;
+    display: none;
+  }
+
+  .menu-navigation a {
+    left: -10px;
+    color: #8B91C3;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active {
+    position: absolute;
+    color: #8B91C3;
+  }
+
+  .fa-fa-bars{
+    width: 20px;
+    height: 20px;
+  }
+
+  /*   Primary navigation   */
+
+
+  .primary-nav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul #primary-nav{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+
+  .logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 37px;
+    top: 9px;
+  }
+
+  .btTxt-nav-search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 17px;    
+  }
+
+  .language{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 200px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .btTxt-user{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 270px;
+    top: 17px;    
+  }
+
+  .nav-search-parameters{
+    display: none;
+  }
+
+  
+
+  /*----------     Main page     ----------*/
+
+
+
+  .name{
+    position: absolute;
+    width: 315px;
+    height: 52px;
+    left: 3px;
+    top: 285px;
+    
+    background: #8B91C3;
+    opacity: 0.5;
+    border-radius: 20px;
+  }
+
+  .subhead {
+    position: absolute;
+    width: 129.64px;
+    height: 76.22px;
+    left: 120px;
+    top: 252px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    /* Note: backdrop-filter has minimal browser support */
+  }
+  
+  .train-station{
+    top: 300;
+  }
+
+  .main-page-picture{
+    background-image: url(Picture/michal-parzuchowski-dmH3NWhYTHQ-unsplash.jpg);
+    position: absolute;
+    width: 360px;
+    height: 594px;
+    left: 0px;
+    top: 75px;
+
+    background-position: 53%;
+    background-size: cover;
+  
+    display: flex;
+  }
+
+
+  /*----------     Search box     ----------*/
+
+
+
+  .main-search-parameters{
+    position: absolute;
+    width: 280px;
+    height: 450px;
+    left: 21px;
+    top: 730px;
+
+    background: #0F143D;
+    border-radius: 20px;
+  }
+
+  .where-are-they-going-from {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 40px;
+    top: 40px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+  }
+
+  .where-are{
+    position: absolute;
+    width: 220px;
+    height: 64px;
+    left: 18px;
+    top: 33px;
+  
+    background: #8B91C3;
+    border-radius: 15px;
+    border: 2px solid #535EB8;
+  }
+  
+  .where-are[type=text]{
+  
+    padding-left: 20px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  
+    color: #0F143D;
+  }
+
+  .btn-back-and-forth {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 115px;
+    top: 120px;
+  }
+
+  .when-they{
+    position: absolute;
+    width: 220px;
+    height: 64px;
+    left: 18px;
+    top: 190px;
+  
+    background: #8B91C3;
+    border-radius: 15px;
+    border: 2px solid #535EB8;
+  }
+  
+  .when-they[type=text]{
+    padding-left: 20px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  
+    color: #0F143D;
+  }
+
+  .where-are-they-going {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 40px;
+    top: 190px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+  }
+
+  .when-they-go {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 40px;
+    top: 280px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+  }
+
+  .when-they-go{
+    position: absolute;
+    width: 220px;
+    height: 64px;
+    left: 18px;
+    top: 285px;
+  
+    background: #8B91C3;
+    border-radius: 15px;
+    border: 2px solid #535EB8;
+  }
+  
+  .when-they-go[type=date]{
+    padding-left: 20px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  
+    color: #0F143D;
+  }
+
+  .calendar-image {
+    display: none;
+  }
+
+  .btTxt-search{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 115px;
+    top: 375px;
+  }
+
+
+
+  /*----------     Main directions     ----------*/
+
+
+
+  .main-directions-container {
+    top: 1400px;
+  }
+  
+  .main-directions-title{
+    width: 260px;
+    height: 36px;
+    left: 40px;
+    top: 1225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #0F143D;
+  }
+
+
+  /*   Lviv   */
+
+
+  .lviv-top{
+    position: absolute;
+    width: 280px;
+    height: 49px;
+    left: 22px;
+    top: 1350px;
+    
+    background: #8B91C3;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .lviv-top-name{
+    position: absolute;
+    width: 94.52px;
+    height: 14.79px;
+    left: 115px;
+    top: 20px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #0F143D;  
+  }
+
+  .lviv-picture{
+  position: absolute;
+  width: 280px;
+  height: 163px;
+  left: 21px;
+  top: 1399px;
+  }
+
+  .lviv-main{
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    left: 21px;
+    top: 1562px;
+
+    background: #8B91C3;
+    border-radius: 0px 0px 20px 20px;
+}
+
+  .lviv-kyiv-text{
+    position: absolute;
+    width: 148px;
+    height: 31px;
+    left: 12px;
+    top: 7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+}
+
+  .lviv-kyiv-price{
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+}
+
+  .lviv-odesa-text {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 12px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .lviv-odesa-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .lviv-kryvyi-rih-text {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 12px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .lviv-kryvyi-rih-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .lviv-kharkiv-text {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 12px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .lviv-kharkiv-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .lviv-dnipro-text {
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: 12px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .lviv-dnipro-price {
+  position: absolute;
+  width: 92px;
+  height: 31px;
+  left: 215px;
+  top: 205px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3C4485;
+  }
+
+
+  /*   Ukraine   */
+
+
+  .ukraine-top{
+    position: absolute;
+    width: 280px;
+    height: 49px;
+    left: 22px;
+    top: 1885px;
+    
+    background: #8B91C3;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .ukraine-top-name{
+    position: absolute;
+    width: 95.17px;
+    height: 24px;
+    left: calc(50% - 95.17px/2 - 0.41px);
+    top: 13px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+  .ukraine-picture{
+    position: absolute;
+    width: 280px;
+    height: 163px;
+    left: 22px;
+    top: 1933px;
+  }
+
+  .ukraine-main{
+    position: absolute;
+    width: 280px;
+    height: 260px;
+    left: 22px;
+    top: 2095px;
+    
+    background: #8B91C3;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .ivano-frankivsk-kyiv-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .ivano-frankivsk-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .lviv-przemysl-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .lviv-przemysl-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .kyiv-przemysl-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-przemysl-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 208px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .odesa-kharkiv-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .odesa-kharkiv-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .odesa-dnipro-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .odesa-dnipro-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+
+  /*   Kyiv   */
+
+
+  .kyiv-top{
+    position: absolute;
+    width: 280px;
+    height: 49px;
+    left: 22px;
+    top: 2440px;
+    
+    background: #8B91C3;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .kyiv-top-name{
+    position: absolute;
+    width: 95.17px;
+    height: 24px;
+    left: 115px;
+    top: 12px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+    color: #0F143D;
+  }
+
+  .kyiv-picture{
+    position: absolute;
+    width: 280px;
+    height: 163px;
+    left: 22px;
+    top: 2488px;
+  }
+
+  .kyiv-main{
+    position: absolute;
+    width: 280px;
+    height: 255px;
+    left: 22px;
+    top: 2650px;
+
+    background: #8B91C3;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .kyiv-lviv-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-lviv-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .kyiv-kharkiv-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-kharkiv-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .kyiv-odesa-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-odesa-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 105px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .kyiv-dnipro-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-dnipro-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 155px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+  .kyiv-mariupol-text {
+    position: absolute;
+    width: 350px;
+    height: 31px;
+    left: 12px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .kyiv-mariupol-price {
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 215px;
+    top: 205px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3C4485;
+  }
+
+
+
+  /*----------     About us     ----------*/
+
+
+
+  .about-us-title{
+    position: absolute;
+    width: 177px;
+    height: 36px;
+    left: 89px;
+    top: 3000px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+    }
+  
+  .about-us-main{
+    position: absolute;
+    width: 280px;
+    height: 242px;
+    left: 22px;
+    top: 3100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+  
+  .train-picture{
+    position: absolute;
+    width: 260px;
+    height: 153px;
+    left: 10px;
+    top: 260px;
+  }
+  
+  .main-gradient{
+    position: absolute;
+    width: 360px;
+    height: 263px;
+    left: -40px;
+    top: 190px;
+  
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+  
+  .about-us-table{
+    position: absolute;
+    width: 271px;
+    height: 378px;
+    left: 22px;
+    top: 3500px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+  
+  .table-picture{
+    position: absolute;
+    width: 260px;
+    height: 153px;
+    left: 10px;
+    top: 320px;
+  }
+  
+  .table-gradient{
+    position: absolute;
+    width: 360px;
+    height: 263px;
+    left: -40px;
+    top: 250px;
+  
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+  
+  .about-us-ticket{
+    position: absolute;
+    width: 278px;
+    height: 230px;
+    left: 22px;
+    top: 4010px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+    }
+  
+  .ticket-picture{
+    position: absolute;
+    width: 260px;
+    height: 153px;
+    left: 10px;
+    top: 250px;
+  }
+  
+  .ticket-gradient{
+    position: absolute;
+    width: 360px;
+    height: 263px;
+    left: -40px;
+    top: 180px;
+  
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+
+
+  
+  /*----------      Comments      ----------*/
+
+
+
+  .comments-title{
+    position: absolute;
+    width: 180px;
+    height: 126px;
+    left: 95px;
+    top: 4439px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+
+  /*   Comment 1   */
+
+
+  .comment-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 280px;
+    height: 235px;
+    left: 20px;
+    top: 4630px;
+    
+    background: #FFFFFF;
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .comment-1-gradient{
+    position: absolute;
+    width: 400px;
+    height: 360px;
+    left: -40px;
+    top: 4545px;
+
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+
+  .person-1-image{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    top: 5px;
+
+    
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .person-1-mark{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 258px;
+    top: -20px;
+  }
+
+  .person-1-name{
+    position: absolute;
+    width: 313px;
+    height: 100px;
+    left: 75px;
+    top: -25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .person-1-date{
+    position: absolute;
+    width: 202px;
+    height: 17px;
+    left: 75px;
+    top: 42px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #848ac0;
+  }
+
+  .person-1-comment{
+    position: absolute;
+    width: 260px;
+    height: 100px;
+    left: 10px;
+    top: 115px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  /*   Comment 2   */
+
+
+  .comment-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 280px;
+    height: 235px;
+    left: 20px;
+    top: 4970px;
+    
+    background: #FFFFFF;
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .comment-2-gradient{
+    position: absolute;
+    width: 400px;
+    height: 360px;
+    left: -40px;
+    top: 4880px;
+
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+
+  .person-2-image{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    top: 5px;
+
+    
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .person-2-mark{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 258px;
+    top: -20px;
+  }
+
+  .person-2-name{
+    position: absolute;
+    width: 313px;
+    height: 100px;
+    left: 75px;
+    top: -25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .person-2-date{
+    position: absolute;
+    width: 202px;
+    height: 17px;
+    left: 75px;
+    top: 42px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #848ac0;
+  }
+
+  .person-2-comment{
+    position: absolute;
+    width: 260px;
+    height: 100px;
+    left: 10px;
+    top: 115px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  /*   Comment 3   */
+
+
+  .comment-3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 280px;
+    height: 235px;
+    left: 20px;
+    top: 5320px;
+    
+    background: #FFFFFF;
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .comment-3-gradient{
+    position: absolute;
+    width: 400px;
+    height: 360px;
+    left: -40px;
+    top: 5240px;
+
+    background: radial-gradient(43.31% 43.31% at 50% 56.69%, rgba(51, 59, 118, 0.8) 48.27%, rgba(217, 217, 217, 0) 100%);
+  }
+
+  .person-3-image{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 5px;
+    top: 5px;
+
+    border: 1px solid #0F143D;
+    border-radius: 20px;
+  }
+
+  .person-3-mark{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 258px;
+    top: -20px;
+  }
+
+  .person-3-name{
+    position: absolute;
+    width: 313px;
+    height: 100px;
+    left: 75px;
+    top: -25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .person-3-date{
+    position: absolute;
+    width: 202px;
+    height: 17px;
+    left: 75px;
+    top: 42px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #848ac0;
+  }
+
+  .person-3-comment{
+    position: absolute;
+    width: 260px;
+    height: 100px;
+    left: 10px;
+    top: 115px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  /*----------     Footer     ----------*/
+
+
+
+  .footer-container{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 5700px;
+    
+    background: #0F143D;
+  }
+  
+  
+  /*   section 1   */
+  
+  
+  .locomotive-image {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 25px;
+  }
+  
+  .subway-image {
+    display: none;
+  }
+  
+  .twitter-image {
+    display: none;
+  }
+  
+  .youtube-image {
+    display: none;
+  }
+  
+  .facebook-image {
+    display: none;
+  }
+  
+  .linkedin-image {
+    display: none;
+  }
+  
+  .viber-image {
+    display: none;
+  }
+  
+  .telegram-image {
+    display: none;
+  }
+  
+  .number-of-phone {
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 13.39px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .years-of-works {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 13.5px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .question {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .email {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 180px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .footer-border-1{
+    display: none;
+  }
+  
+  
+  /*   section 2   */
+  
+  
+  .ukr-railway-image {
+    display: none;
+  }
+  
+  .visa-image {
+    display: none;
+  }
+  
+  .google-play-image {
+    position: absolute;
+    width: 138.64px;
+    height: 39px;
+    left: 13.5px;
+    top: 270px;
+
+  }
+  
+  .app-store-image {
+    position: absolute;
+    width: 138.64px;
+    height: 40px;
+    left: 170px;
+    top: 270px;
+    
+    
+  }
+  
+  .footer-border-2{
+    display: none;
+  }
+  
+  
+  /*   section 3   */
+  
+  
+  .final-text{
+    display: none;
+  }
+
+  
+
+
+}

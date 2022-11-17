@@ -1,0 +1,731 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+  body{
+    margin: 15;
+    width: 320px;
+    background: #F0F3FF;
+  }
+
+
+
+  /*----------     Navbar     ----------*/
+
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+    height: 75px; 
+    left: 0;
+    top: 0px; 
+    z-index: 9999; 
+  
+    background-color: #0F143D; 
+  }
+
+  .navbar-container {
+    height: 80px;
+    top: 300px;
+  }
+
+
+  /*   Menu    */
+
+
+  .menu{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 4px;
+    top: 9px;
+  }
+  
+  .menu-navigation{
+    background-color: #0F143D;
+  }
+
+  .menu-navigation #myLinks {
+    margin: 60px 0px;
+    display: none;
+  }
+
+  .menu-navigation a {
+    left: -10px;
+    color: #8B91C3;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active {
+    position: absolute;
+    color: #8B91C3;
+  }
+
+  .fa-fa-bars{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /*****          Primary navigation          *****/
+
+
+  .primary-nav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul #primary-nav{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 37px;
+    top: 9px;
+  }
+
+  .btTxt-nav-search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 17px;    
+  }
+
+  .language{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 200px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .btTxt-user{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 270px;
+    top: 17px;    
+  }
+
+  .nav-search-parameters{
+    display: none;
+  }
+
+
+
+  /*----------     Feedback     ----------*/
+
+
+
+  .feedback{
+    position: absolute;
+    width: 283px;
+    height: 505px;
+    left: 20px;
+    top: 136px;
+  }
+
+  .feedback-block{
+    position: absolute;
+    width: 283px;
+    height: 840px;
+    left: 0px;
+    top: 0px;    
+
+    background: #0F143D;
+    border-radius: 30px;
+  }
+
+
+/*****          Feedback comments         *****/
+
+
+  .feedback-comments{
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+  }
+
+  .feedback-name{
+    position: absolute;
+    width: 260px;
+    height: 24px;
+    left: 50px;
+    top: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .feedback-vector{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 30px;
+    top: 95px;
+
+    border: 2px solid #8B91C3;
+  }
+
+
+  /*****          Lastname          *****/
+
+
+  .lastname-main{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 22px;
+    top: 100px;
+  }
+
+  .lastname-name{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 60px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .lastname-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 10px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .lastname-block[type=text]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Name          *****/
+
+
+  .name-main{
+    position: absolute;
+    width: 320px;
+    height: 116px;
+    left: 22px;
+    top: 220px;
+  }
+
+  .name-name{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 95px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .name-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 18px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .name-block[type=text]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Email          *****/
+
+
+  .email-main{
+    position: absolute;
+    width: 320px;
+    height: 116px;
+    left: 22px;
+    top: 340px;
+  }
+
+  .email-name{
+    position: absolute;
+    width: 230px;
+    height: 34px;
+    left: 10px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .email-block{
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 18px;
+    top: 75px;
+
+    background-color: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #535EB8;
+  }
+
+  .email-block[type=text]{
+    left: 5px;
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Message          *****/
+
+
+  .message-main{
+    position: absolute;
+    width: 320px;
+    height: 116px;
+    left: 22px;
+    top: 460px;
+  }
+
+  .message-name{
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 35px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .message-block{
+    position: absolute;
+    width: 205px;
+    height: 200px;
+    left: 18px;
+    top: 80px;
+
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #535EB8;
+    border-radius: 30px;
+    background-color: #8B91C3;
+    font-size: 16px;
+    resize: none;
+  }
+
+
+
+  /*****          Feedback else          *****/
+
+
+  .feedback-else{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 0px;
+  }
+
+  .feedback-logo-picture{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 95px;
+    top: 30px;
+  }
+
+  .feedback-train-picture{
+    display: none;
+  }
+
+
+
+  /*----------     Pages navigation     ----------*/
+
+
+
+  .left-page{
+    width: 120px;
+    height: 50px;
+    left: 30px;
+    top: -40px;
+
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .left-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .left-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 32px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+  .right-page{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 180px;
+    top: -40px;
+    
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .right-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .right-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 5px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+
+
+
+  /*----------     Footer     ----------*/
+
+
+
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 1200px;
+  }
+
+
+  .footer-block{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+    
+    background: #0F143D;
+  }
+  
+  
+  /*   section 1   */
+  
+  
+  .locomotive-image {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 25px;
+  }
+  
+  .subway-image {
+    display: none;
+  }
+  
+  .twitter-image {
+    display: none;
+  }
+  
+  .youtube-image {
+    display: none;
+  }
+  
+  .facebook-image {
+    display: none;
+  }
+  
+  .linkedin-image {
+    display: none;
+  }
+  
+  .viber-image {
+    display: none;
+  }
+  
+  .telegram-image {
+    display: none;
+  }
+  
+  .number-of-phone {
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 13.39px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .years-of-works {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 13.5px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .question {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .email {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 180px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .footer-border-1{
+    display: none;
+  }
+  
+  
+  /*   section 2   */
+  
+  
+  .ukr-railway-image {
+    display: none;
+  }
+  
+  .visa-image {
+    display: none;
+  }
+  
+  .google-play-image {
+    position: absolute;
+    width: 138.64px;
+    height: 39px;
+    left: 13.5px;
+    top: 270px;
+
+  }
+  
+  .app-store-image {
+    position: absolute;
+    width: 138.64px;
+    height: 40px;
+    left: 170px;
+    top: 270px;
+    
+    
+  }
+  
+  .footer-border-2{
+    display: none;
+  }
+  
+  
+  /*   section 3   */
+  
+  
+  .final-text{
+    display: none;
+  }
+
+}

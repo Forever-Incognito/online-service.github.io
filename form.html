@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-styles.css">
+    <link rel="stylesheet" href="form-mobile-styles.css" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href="Picture/locomotive.png">
+    <title>Free Travel</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="navbar-container">
+
+            <div class="menu-navigation">
+
+                    <div id="myLinks">
+                        <a href="#id-pessenger">Пасажир</a>
+                        <a href="#id-train">Місце у вагоні</a>
+                        <a href="#id-contacts">Контактні дані</a>
+                    </div>
+                        <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+                            <i class="fa-fa-bars"></i>
+                        </a>
+            </div>
+        </div>
+
+            <nav>
+                <ul class="primary-nav">
+                    <li class="menu"><input type="image" src="Picture/menu.png" name="saveForm" class="menu" id="saveForm" /></li>
+                    <!--<li class="menu"><img class="menu" src="Picture/menu.png"></li>-->
+                    <li class="logo">
+                        <a href="index.html">
+                            <input type="image" src="Picture/locomotive.png" name="saveForm" class="logo" href="#id-main-page-container" id="saveForm" />
+                        </a>
+                    </li>
+                    <li>
+                        <input type="image" src="Picture/magnifier.png" name="saveForm" class="btTxt-nav-search" href="#id-nav-search-parameters" id="saveForm" />
+                    </li>
+                    
+                        
+                    <li><a href="#" class="language">UA/EN</a></li>
+                    <li><input type="image" src="Picture/user1.png" name="saveForm" class="btTxt-user" id="saveForm" /></li>
+                </ul>
+
+            </nav>
+
+
+
+
+            <div class="nav-search-parameters" id="id-nav-search-parameters">
+                <ul class="main-search-parameters" id="id-main-search-parameters">
+                    
+                    <li>
+                        <input type="text" placeholder="Звідки" class="where-are" list="citys">
+                        <datalist id="citys">
+                            <option value="Львів"></option>
+                            <option value="Київ"></option>
+                            <option value="Одеса"></option>
+                            <option value="Дніпро"></option>
+                            <option value="Харків"></option>
+                            <option value="Кривий-Ріг"></option>
+                            <option value="Сімферополь"></option>
+                            <option value="Донецьк"></option>
+                            <option value="Луганськ"></option>
+                            <option value="Запоріжжя"></option>
+                            <option value="Рівне"></option>
+                            <option value="Луцьк"></option>
+                            <option value="Тернопіль"></option>
+                            <option value="Ужгород"></option>
+                            <option value="Черкаси"></option>
+                            <option value="Херсон"></option>
+                            <option value="Чернівці"></option>
+                            <option value="Чернігів"></option>
+                            <option value="Житомир"></option>
+                            <option value="Вінниці"></option>
+                        </datalist>
+                    </li>
+
+                    <li><input type="image" src="Picture/back-and-forth.png" name="saveForm" class="btn-back-and-forth" id="back-and-forth"></li>
+                    
+                    <li>
+                        <input type="text" placeholder="Куди" class="when-they" list="citys">
+                        <datalist id="citys">
+                            <option value="Львів"></option>
+                            <option value="Київ"></option>
+                            <option value="Одеса"></option>
+                            <option value="Дніпро"></option>
+                            <option value="Харків"></option>
+                            <option value="Кривий-Ріг"></option>
+                            <option value="Сімферополь"></option>
+                            <option value="Донецьк"></option>
+                            <option value="Луганськ"></option>
+                            <option value="Запоріжжя"></option>
+                            <option value="Рівне"></option>
+                            <option value="Луцьк"></option>
+                            <option value="Тернопіль"></option>
+                            <option value="Ужгород"></option>
+                            <option value="Черкаси"></option>
+                            <option value="Херсон"></option>
+                            <option value="Чернівці"></option>
+                            <option value="Чернігів"></option>
+                            <option value="Житомир"></option>
+                            <option value="Вінниці"></option>
+                        </datalist>
+                    </li>
+
+                    <li>
+                        <input type="date" placeholder="Коли" class="when-they-go">
+                    </li>
+
+                    <li class="calendar"><img scr="Picture/calendar.png" class="calendar-image" alt="calendar-image"></li>
+                    <li>
+                        <a href="form.html">
+                            <input type="image" src="Picture/magnifier.png"  name="saveForm" class="btTxt-search" id="saveForm" />
+                        </a>
+                    </li> 
+                
+            </ul>
+            </div>
+    </div>
+    </div>
+
+    
+
+    <div class="pessenger" id="id-pessenger">
+        <div class="pessenger-block">
+            <h1 class="pessenger-name">Пасажир</h1>
+            <div class="pessenger-vector"></div>
+            <div class="lastname-main"> 
+                <h2 class="lastname-name">Прізвище</h2>
+                <input type="text" class="lastname-block" placeholder="Прізвище">
+            </div>
+            <div class="name-main"> 
+                <h2 class="name-name">Ім'я</h2>
+                <input type="text" class="name-block" placeholder="Ім'я">
+            </div>
+            <div class="date-main"> 
+                <h2 class="date-name">Дата народження</h2>
+                <input type="date" class="date-block" placeholder="Прізвище">
+            </div>
+            <p class="pessenger-warning">*Ці поля є обо'язковими для вводу</p>
+        </div>
+    </div>
+
+    <div class="train" id="id-train">
+        <div class="train-block">
+            <h1 class="train-name">Місце у вагоні</h1>
+            <div class="train-vector"></div>
+            <h2 class="car-text">Вагон № 3</h2>
+
+            <div class="left-car">
+                <input type="image" src="Picture/right-arrow-new.png" class="left-arrow">
+            </div>
+
+            <div class="right-car">
+                <input type="image" src="Picture/right-arrow-new.png" class="right-arrow">
+            </div>
+
+            <div class="car">
+                <div class="wc-first">
+                    <p class="wc-text-first"><b>WC</b></p>
+                </div>
+                <img src="Picture/user2.png" class="personal">
+
+                <div class="compartment-1">
+                    <button class="place-1" id="place-1">
+                        <p class="place-1-text">1</p>
+                    </button>
+
+                    <button class="place-2" id="place-2">
+                        <p class="place-2-text">2</p>
+                    </button>
+
+                    <button class="place-3" id="place-3">
+                        <p class="place-3-text">3</p>
+                    </button>
+
+                    <button class="place-4" id="place-4">
+                        <p class="place-4-text">4</p>
+                    </button>
+                </div>
+
+                <div class="compartment-2">
+                    <button class="place-5" id="place-5">
+                        <p class="place-5-text">5</p>
+                    </button>
+
+                    <button class="place-6" id="place-6">
+                        <p class="place-6-text">6</p>
+                    </button>
+
+                    <button class="place-7" id="place-7">
+                        <p class="place-7-text">7</p>
+                    </button>
+
+                    <button class="place-8" id="place-8">
+                        <p class="place-8-text">8</p>
+                    </button>
+                </div>
+
+                <div class="compartment-3">
+                    <button class="place-9" id="place-9">
+                        <p class="place-9-text">9</p>
+                    </button>
+
+                    <button class="place-10" id="place-10">
+                        <p class="place-10-text">10</p>
+                    </button>
+
+                    <button class="place-11" id="place-11">
+                        <p class="place-11-text">11</p>
+                    </button>
+
+                    <button class="place-12" id="place-12">
+                        <p class="place-12-text">12</p>
+                    </button>
+                </div>
+
+                <div class="compartment-4">
+                    <button class="place-13" id="place-13">
+                        <p class="place-13-text">13</p>
+                    </button>
+
+                    <button class="place-14" id="place-14">
+                        <p class="place-14-text">14</p>
+                    </button>
+
+                    <button class="place-15" id="place-15">
+                        <p class="place-15-text">15</p>
+                    </button>
+
+                    <button class="place-16" id="place-16">
+                        <p class="place-16-text">16</p>
+                    </button>
+                </div>
+
+                <div class="compartment-5">
+                    <button class="place-17" id="place-17">
+                        <p class="place-17-text">17</p>
+                    </button>
+
+                    <button class="place-18" id="place-18">
+                        <p class="place-18-text">18</p>
+                    </button>
+
+                    <button class="place-19" id="place-19">
+                        <p class="place-19-text">19</p>
+                    </button>
+
+                    <button class="place-20" id="place-20">
+                        <p class="place-20-text">20</p>
+                    </button>
+                </div>
+
+                <div class="compartment-6">
+                    <button class="place-21" id="place-21">
+                        <p class="place-21-text">21</p>
+                    </button>
+
+                    <button class="place-22" id="place-22">
+                        <p class="place-22-text">22</p>
+                    </button>
+
+                    <button class="place-23" id="place-23">
+                        <p class="place-23-text">23</p>
+                    </button>
+
+                    <button class="place-24" id="place-24">
+                        <p class="place-24-text">24</p>
+                    </button>
+                </div>
+
+                <div class="compartment-7">
+                    <button class="place-25" id="place-25">
+                        <p class="place-25-text">25</p>
+                    </button>
+
+                    <button class="place-26" id="place-26">
+                        <p class="place-26-text">26</p>
+                    </button>
+
+                    <button class="place-27" id="place-27">
+                        <p class="place-27-text">27</p>
+                    </button>
+
+                    <button class="place-28" id="place-28">
+                        <p class="place-28-text">28</p>
+                    </button>
+                </div>
+
+                <div class="compartment-8">
+                    <button class="place-29" id="place-29">
+                        <p class="place-29-text">29</p>
+                    </button>
+
+                    <button class="place-30" id="place-30">
+                        <p class="place-30-text">30</p>
+                    </button>
+
+                    <button class="place-31" id="place-31">
+                        <p class="place-31-text">31</p>
+                    </button>
+
+                    <button class="place-32" id="place-32">
+                        <p class="place-32-text">32</p>
+                    </button>
+                </div>
+
+                <div class="compartment-9">
+                    <button class="place-33" id="place-33">
+                        <p class="place-33-text">33</p>
+                    </button>
+
+                    <button class="place-34" id="place-34">
+                        <p class="place-34-text">34</p>
+                    </button>
+
+                    <button class="place-35" id="place-35">
+                        <p class="place-35-text">35</p>
+                    </button>
+
+                    <button class="place-36" id="place-36">
+                        <p class="place-36-text">36</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-1">
+                    <button class="place-37" id="place-37">
+                        <p class="place-37-text">37</p>
+                    </button>
+
+                    <button class="place-38" id="place-38">
+                        <p class="place-38-text">38</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-2">
+                    <button class="place-39" id="place-39">
+                        <p class="place-39-text">39</p>
+                    </button>
+
+                    <button class="place-40" id="place-40">
+                        <p class="place-40-text">40</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-3">
+                    <button class="place-41" id="place-41">
+                        <p class="place-41-text">41</p>
+                    </button>
+
+                    <button class="place-42" id="place-42">
+                        <p class="place-42-text">42</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-4">
+                    <button class="place-43" id="place-43">
+                        <p class="place-43-text">43</p>
+                    </button>
+
+                    <button class="place-44" id="place-44">
+                        <p class="place-44-text">44</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-5">
+                    <button class="place-45" id="place-45">
+                        <p class="place-45-text">45</p>
+                    </button>
+
+                    <button class="place-46" id="place-46">
+                        <p class="place-46-text">46</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-6">
+                    <button class="place-47" id="place-47">
+                        <p class="place-47-text">47</p>
+                    </button>
+
+                    <button class="place-48" id="place-48">
+                        <p class="place-48-text">48</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-7">
+                    <button class="place-49" id="place-49">
+                        <p class="place-49-text">49</p>
+                    </button>
+
+                    <button class="place-50" id="place-50">
+                        <p class="place-50-text">50</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-8">
+                    <button class="place-51" id="place-51">
+                        <p class="place-51-text">51</p>
+                    </button>
+
+                    <button class="place-52" id="place-52">
+                        <p class="place-52-text">52</p>
+                    </button>
+                </div>
+
+                <div class="side-seats-9">
+                    <button class="place-53" id="place-53">
+                        <p class="place-53-text">53</p>
+                    </button>
+
+                    <button class="place-54" id="place-54">
+                        <p class="place-54-text">54</p>
+                    </button>
+                </div>
+
+                <div class="wc-second">
+                    <p class="wc-text-second"><b>WC</b></p>
+                </div>
+            </div>
+
+            <div class="free-space">
+                <div class="free-space-block">
+
+                </div>
+                <h3 class="free-space-text">- вільні місця</h3>
+            </div>
+
+            <div class="occupied-seat">
+                <div class="occupied-seat-block">
+
+                </div>
+                <h3 class="occupied-seat-text">- зайняті місця</h3>
+            </div>
+            
+            <p class="even-seats">Парні номери - верхні місця</p>
+
+            <p class="odd-places">Непарні номери - нижні місця</p>
+
+            <div class="pessenger-check">
+                <p class="pessenger-check-text">Пасажир</p>
+                <form  class="pessenger-checkbox-form">
+                    <label class="pessenger-container" for="id-pessenger-full">Повний
+                        <input onchange="onPriceChange()" type="radio" name="radio" id="id-pessenger-full" value="560" checked>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="pessenger-container" for="id-pessenger-child">Дитячий
+                        <input onchange="onPriceChange()" type="radio" name="radio" id="id-pessenger-child" value="280">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="pessenger-container" for="id-pessenger-preferential">Пільговий
+                        <input onchange="onPriceChange()" type="radio" name="radio" id="id-pessenger-preferential" value="280">
+                        <span class="checkmark"></span>
+                    </label>
+                </form>
+            </div>
+
+            <div class="additional-check">
+                <p class="additional-check-text">Додаткові послуги</p>
+                <form class="additional-checkbox-form">
+                    <label class="additional-container" for="bed">Постіль
+                        <input onclick="checkCheckbox()" type="checkbox" id="bed" class="additional-full" name="additional" value="50">
+                        <span class="checkmark-check"></span>
+                    </label>
+
+                    <label class="additional-container" for="one-drink">Один напій
+                        <input onclick="checkCheckbox()" type="checkbox" id="one-drink" class="additional-child" name="additional" value="25">
+                        <span class="checkmark-check"></span>
+                    </label>
+
+                    <label class="additional-container" for="two-drinks">Два напої
+                        <input onclick="checkCheckbox()" type="checkbox" id="two-drinks" class="additional-preferential" name="additional" value="50">
+                        <span class="checkmark-check"></span>
+                    </label>
+                </form>
+            </div>
+            
+            <div class="more-check">
+                <p class="more-check-text">Більше</p>
+                <form class="more-checkbox-form">
+                    <label class="more-container">Апаратура
+                        <input type="checkbox" class="more-full" name="more" value="Постіль">
+                        <span class="more-checkmark"></span>
+                    </label>
+
+                    <label class="more-container">Надлишок
+                        <input type="checkbox" class="more-child" value="Один-напій">
+                        <span class="more-checkmark"></span>
+                    </label>
+
+                    <label class="more-container">Таврини, птахи
+                        <input type="checkbox" class="more-preferential" value="Два-напої">
+                        <span class="more-checkmark"></span>
+                    </label>
+                </form>
+            </div>
+
+            <div class="result">
+                <h2 class="result-text">Підсумок:</h2>
+                <h1 class="price-text">Ціна <span id="selectedPrice" class="price">560</span> грн</h1>
+
+                <p class="result-explanation">*з врахуванням обраних критеріїв</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts" id="id-contacts">
+        <div class="contacts-block">
+            <h1 class="contacts-name">Контактні</h1>
+            <div class="contacts-vector"></div>
+
+            <div class="contacts-email">
+                <img src="Picture/email.png" class="contacts-email-picture">
+                <p class="contacts-email-text">Квитки будуть надіслані на вашу пошту автоматично</p>
+
+                <div class="contacts-email-main"> 
+                    <input type="email" class="contacts-email-block" placeholder="Електронна пошта">
+                </div>
+            </div>
+
+            <div class="phone">
+                <img src="Picture/smartphone-call.png" class="phone-picture">
+                <p class="phone-text">Ви отримаєте SMS з номером замовлення на Ваш телефон</p>
+
+                <div class="phone-main"> 
+                    <input type="tel" class="phone-block" placeholder="Телефон">
+                </div>
+            </div>
+            <p class="contacts-warning">*Ці поля є обо'язковими для вводу</p>
+
+        </div>
+    </div>
+
+    <section class="pages-navigation">
+        <a href="index.html">
+            <button class="left-page">
+                <p class="left-page-text">Назад</p> 
+            </button>
+        </a>
+
+        <a href="bank.html">
+            <button class="right-page">
+                <p class="right-page-text">Оплатити</p>
+            </button>
+        </a>    
+    </section>
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="section-1">
+                <input type="image" src="Picture/locomotive.png" name="saveForm" class="locomotive-image" id="saveForm" />
+                <img src="Picture/subway.png" alt="subway-image" class="subway-image">
+                <input type="image" src="Picture/twitter.png" name="saveForm" class="twitter-image" id="saveForm" />
+                <input type="image" src="Picture/youtube.png" name="saveForm" class="youtube-image" id="saveForm" />
+                <input type="image" src="Picture/facebook.png" name="saveForm" class="facebook-image" id="saveForm" />
+                <input type="image" src="Picture/linkedin.png" name="saveForm" class="linkedin-image" id="saveForm" />
+                <input type="image" src="Picture/viber.png" name="saveForm" class="viber-image" id="saveForm" />
+                <input type="image" src="Picture/telegram.png" name="saveForm" class="telegram-image" id="saveForm" />
+                <div class="number-of-phone">098 422 24 44</div>
+                <div class="years-of-works">© 2022-2022 freetravel.ua</div>
+                <a href="feedback.html">
+                    <div class="question">Є питання ? Пишіть !</div>
+                </a>
+                <div class="email">freetravel@gmail.com</div>
+            </div>
+            <div class="footer-border-1"></div>
+            <div class="section-2">
+                <img src="Picture/УкрЗалізниця.png" alt="ukr-railway-image" class="ukr-railway-image">
+                <img src="Picture/visa.png" alt="visa-image" class="visa-image">
+                <input type="image" src="data:image/jpeg;base64,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" name="saveForm" class="google-play-image" id="saveForm" />
+                <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHS5T2Q4j8z83KRmIIbejiDa4RR6ZdJH1WMw&usqp=CAU" name="saveForm" class="app-store-image" id="saveForm" />
+            </div>
+            <div class="footer-border-2"></div>
+            <div class="section-3">
+                <div class="final-text">
+                    FREETRAVEL™ train tickets
+                    <br>
+                    <br>
+                    If you have to go far or close distance, then FREETRAVEL™ is a service for buying railway tickets to Ukrzaliznytsia - what you need. Without a trip to the ticket office. Without standing in line.
+                    <br>
+                    <br>
+                    Simply. Quickly. Available.
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

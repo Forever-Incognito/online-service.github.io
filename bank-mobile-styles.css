@@ -1,0 +1,756 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  
+  body{
+    margin: 15;
+    width: 320px;
+    background: #F0F3FF;
+  }
+
+
+
+  /*----------     Navbar     ----------*/
+
+
+
+  .navbar{
+    position: fixed;
+    width: 100%;
+    height: 75px; 
+    left: 0;
+    top: 0px; 
+    z-index: 9999; 
+  
+    background-color: #0F143D; 
+  }
+
+  .navbar-container {
+    height: 80px;
+    top: 300px;
+  }
+
+
+  /*   Menu    */
+
+
+  .menu{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 4px;
+    top: 9px;
+  }
+  
+  .menu-navigation{
+    background-color: #0F143D;
+  }
+
+  .menu-navigation #myLinks {
+    margin: 60px 0px;
+    display: none;
+  }
+
+  .menu-navigation a {
+    left: -10px;
+    color: #8B91C3;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .active {
+    position: absolute;
+    color: #8B91C3;
+  }
+
+  .fa-fa-bars{
+    width: 20px;
+    height: 20px;
+  }
+
+
+  /*****          Primary navigation          *****/
+
+
+  .primary-nav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul #primary-nav{
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 37px;
+    top: 9px;
+  }
+
+  .btTxt-nav-search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 140px;
+    top: 17px;    
+  }
+
+  .language{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 200px;
+    top: 26px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .btTxt-user{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 270px;
+    top: 17px;    
+  }
+
+  .nav-search-parameters{
+    display: none;
+  }
+
+
+
+  /*----------     Bank     ----------*/
+
+
+
+  .bank{
+    position: absolute;
+    width: 283px;
+    height: 505px;
+    left: 20px;
+    top: 136px;   
+  }
+
+  .bank-block{
+    position: absolute;
+    width: 283px;
+    height: 475px;
+    left: 0px;
+    top: 0px;    
+
+    background: #0F143D;
+    border-radius: 30px;
+  }
+
+  .bank-name{
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    left: 43px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #8B91C3;
+  }
+
+  .bank-vector{
+    position: absolute;
+    width: 220px;
+    height: 0px;
+    left: 30px;
+    top: 78px;
+
+    border: 2px solid #8B91C3;
+  }
+
+
+  /*****          Card          *****/
+
+
+  .card{
+    position: absolute;
+    width: 200px;
+    height: 156px;
+    left: 20px;
+    top: 120px;
+  }
+
+  .card-block{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+    border-radius: 30px;
+  }
+
+  .number-of-card-name{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 55px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .number-of-card-block{
+    position: absolute;
+    width: 180px;
+    height: 36px;
+    left: 12px;
+    top: 60px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+    border: 2px solid #535EB8;
+  }
+
+  .number-of-card-block[type=number]{
+
+    padding-left: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #0F143D;
+  }
+
+  .validity{
+    position: absolute;
+    width: 360px;
+    height: 36px;
+    left: 75px;
+    top: 90px;
+  }
+
+  .validity-name{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    left: 15px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .month-block{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 0px;
+    top: 60px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+    border: 2px solid #535EB8;
+  }
+
+  .month-block[type=number]{
+
+    padding-left: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0F143D;
+  }
+
+  .fraction{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 60px;
+    top: 35px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+
+
+    color: #0F143D;
+  }
+
+  .year-block{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 75px;
+    top: 60px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+    border: 2px solid #535EB8;
+  }
+
+  .year-block[type=number]{
+
+    padding-left: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0F143D;
+  }
+
+
+  /*****          Code          *****/
+
+
+  .code{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    left: 40px;
+    top: 230px;
+  }
+
+  .code-block{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    
+    background: #8B91C3;
+    border: 1px solid #0F143D;
+    border-radius: 30px;
+  }
+
+  .magnit-line{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 77px;
+    top: 45px;
+
+  background: #4754BB;
+  }
+
+  .code-name{
+    position: absolute;
+    width: 240px;
+    height: 112px;
+    left: 70px;
+    top: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #0F143D;
+  }
+
+  .code-CVV-block{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 120px;
+    top: 135px;
+
+    background: #8B91C3;
+    border-radius: 5px;
+    border: 2px solid #535EB8;
+  }
+
+  .code-CVV-block[type=number]{
+
+    padding-left: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0F143D;
+  }
+
+  .bank-info{
+    display: none;
+  }
+
+  .text-start{
+    display: none;
+  }
+
+  .text-middle{
+    display: none;
+  }
+
+  .text-end{
+    display: none;
+  }
+
+
+
+  /*----------     Pages navigation     ----------*/
+
+
+
+  .pages-navigation{
+    position: absolute;
+    width: 100px;
+  }
+
+  .left-page{
+    width: 120px;
+    height: 50px;
+    left: 22px;
+    top: -85px;
+
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .left-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .left-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 32px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+  .pages-navigation-text{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 60px;
+    top: -165px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #0F143D;
+  }
+
+  .right-page{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 180px;
+    top: -85px;
+    
+    background: #8B91C3;
+    border-radius: 30px;
+    border: 2px solid #4754BB;
+  }
+
+  .right-page:hover {
+    box-shadow: 0 8px 12px 0 #4754BB;
+  }
+
+  .right-page-text{
+    position: absolute;
+    width: 96px;
+    height: 39px;
+    left: 15px;
+    top: -20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #0F143D;
+  }
+
+
+
+  /*----------     Footer     ----------*/
+
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 840px;
+  }
+
+
+  .footer-block{
+    position: absolute;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+    
+    background: #0F143D;
+  }
+  
+  
+  /*   section 1   */
+  
+  
+  .locomotive-image {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 25px;
+  }
+  
+  .subway-image {
+    display: none;
+  }
+  
+  .twitter-image {
+    display: none;
+  }
+  
+  .youtube-image {
+    display: none;
+  }
+  
+  .facebook-image {
+    display: none;
+  }
+  
+  .linkedin-image {
+    display: none;
+  }
+  
+  .viber-image {
+    display: none;
+  }
+  
+  .telegram-image {
+    display: none;
+  }
+  
+  .number-of-phone {
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    left: 13.39px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .years-of-works {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 13.5px;
+    top: 335px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .question {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .email {
+    position: absolute;
+    width: 220px;
+    height: 22px;
+    left: 13.39px;
+    top: 180px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8B91C3;
+  }
+  
+  .footer-border-1{
+    display: none;
+  }
+  
+  
+  /*   section 2   */
+  
+  
+  .ukr-railway-image {
+    display: none;
+  }
+  
+  .visa-image {
+    display: none;
+  }
+  
+  .google-play-image {
+    position: absolute;
+    width: 138.64px;
+    height: 39px;
+    left: 13.5px;
+    top: 270px;
+
+  }
+  
+  .app-store-image {
+    position: absolute;
+    width: 138.64px;
+    height: 40px;
+    left: 170px;
+    top: 270px;
+    
+    
+  }
+  
+  .footer-border-2{
+    display: none;
+  }
+  
+  
+  /*   section 3   */
+  
+  
+  .final-text{
+    display: none;
+  }
+
+}
+
+
+
+
