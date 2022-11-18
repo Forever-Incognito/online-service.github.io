@@ -1895,4 +1895,21 @@ background: #0F143D;
   color: #8B91C3;
 }
 
+.author{
+  position: absolute;
+  width: 1140px;
+  height: 66px;
+  left: 58px;
+  top: 590px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  
+  color: #8B91C3;
+}
 

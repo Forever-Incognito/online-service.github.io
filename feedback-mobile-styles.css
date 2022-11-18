@@ -223,7 +223,7 @@
     width: 131px;
     height: 34px;
     left: 60px;
-    top: 0px;
+    top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -281,7 +281,7 @@
     width: 131px;
     height: 34px;
     left: 95px;
-    top: 0px;
+    top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -339,7 +339,7 @@
     width: 230px;
     height: 34px;
     left: 10px;
-    top: 0px;
+    top: 20px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -552,7 +552,7 @@
   .footer-block{
     position: absolute;
     width: 100%;
-    height: 390px;
+    height: 430px;
     left: 0px;
     top: 0px;
     
@@ -728,4 +728,21 @@
     display: none;
   }
 
+  .author{
+    position: absolute;
+    width: 1140px;
+    height: 66px;
+    left: 13.39px;
+    top: 340px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    
+    color: #8B91C3;
+  }
 }
